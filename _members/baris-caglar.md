@@ -4,6 +4,7 @@ image: images/members/baris-caglar.webp
 role: principal-investigator
 affiliation: Delft University of Technology 
 aliases:
+  - Baris Caglar
   - B. Caglar
   - B Caglar
 links:
