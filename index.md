@@ -1,9 +1,11 @@
 ---
 ---
 
-# COMMA-TUD's Website
+# Composite and Advanced Materials Processing Lab
 
-An engaging 1-3 sentence description of your lab.
+The Composite and Advanced Materials Processing Lab (CAMP) Lab is a research group at [TU Delft (NL)](https://www.tudelft.nl/en/) focusing on advanced materials processing and composite structures. The group is led by [Prof. Baris Caglar](https://www.tudelft.nl/en/staff/b.caglar/), and is part of the [Aerospace Structures and Materials department from the Faculty of Aerospace Engineering](https://www.tudelft.nl/en/ae/organisation/departments/aerospace-structures-and-materials).
+
+header: images/background.jpg
 
 {% include section.html %}
 
