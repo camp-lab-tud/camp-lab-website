@@ -1,8 +1,8 @@
 ---
 name: Baris Caglar
-image: images/members/baris-caglar.webp
+image: images/team/baris-caglar.webp
 role: principal-investigator
-affiliation: Delft University of Technology 
+affiliation: Delft University of Technology
 aliases:
   - Baris Caglar
   - B. Caglar
@@ -10,7 +10,7 @@ aliases:
 links:
   home-page: https://www.tudelft.nl/en/staff/b.caglar/
   email: b.caglar@tudelft.nl
-  linkedin: https://www.linkedin.com/in/bacaglar/
+  linkedin: bacaglar
   google-scholar: nShlEwMAAAAJ
   orcid: 0000-0001-7771-7323
 
