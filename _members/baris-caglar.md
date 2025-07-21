@@ -1,7 +1,7 @@
 ---
 name: Baris Caglar
 image: images/team/baris-caglar.webp
-role: pi
+role: principal-investigator
 affiliation: Delft University of Technology
 aliases:
   - Baris Caglar
