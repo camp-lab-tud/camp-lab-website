@@ -17,7 +17,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include button.html
-  link="research"
+  link="publication"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
