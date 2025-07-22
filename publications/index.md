@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-bookmark" %}Publications
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+On this page, you can learn more about our latest research outputs. We are committed to enforcing the[ Findable, Accessible, Interoperable, and Reusable (FAIR)](Findability, Accessibility, Interoperability, and Reuse) whenever possible and reasonable, for instance, by publishing open-source papers and code. We believe this transparency is beneficial for scientific rigor and reproducibility.
 
 {% include section.html %}
 
