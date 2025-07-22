@@ -1,6 +1,6 @@
 ---
 name: Shantha Kilambi
-image: images/team/shanta-kilambi.jpeg
+image: images/team/shanta-kilambi.jpg
 role: phd
 aliases:
   - S. Kilambi
