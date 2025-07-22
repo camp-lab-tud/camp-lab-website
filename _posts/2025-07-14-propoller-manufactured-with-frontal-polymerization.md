@@ -1,6 +1,6 @@
 ---
 title: A propeller cured by frontal polymerization
-image: images/some-photo.jpg
+image: images/news/2025-07-14-propoller-manufactured-with-frontal-polymerization/overview.jpg
 author: clement-broggi, baris-caglar
 tags:
   - composites
@@ -15,6 +15,13 @@ This energy-efficient technique harnesses self-sustaining reaction fronts to cur
 <!-- excerpt end -->
 
 This milestone was made possible thanks to [NXTGEN Hightech](https://nxtgenhightech.nl/) funding and in collaboration with [KVE](https://www.kve.nl/). Special thanks to [Koen Geers](https://www.linkedin.com/in/koen-geers-644757155/).
+
+{%
+  include figure.html
+  image="images/news/2025-07-14-propoller-manufactured-with-frontal-polymerization/overview.jpg"
+  caption="The cured propeller. Scale is about 1 meter. All rights reserved."
+  width="800px"
+%}
 
 Why this matters:
 - ✅ Scalability demonstration: FP’s viability for large, complex parts was previously limited by heat dissipation. Our trial overcame this using optimized initiators and thermal management.
