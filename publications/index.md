@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-bookmark" %}Publications
 
-On this page, you can learn more about our latest research outputs. We are committed to enforcing the[ Findable, Accessible, Interoperable, and Reusable (FAIR)](Findability, Accessibility, Interoperability, and Reuse) whenever possible and reasonable, for instance, by publishing open-source papers and code. We believe this transparency is beneficial for scientific rigor and reproducibility.
+On this page, you can learn more about our latest research outputs. We are committed to enforcing the [Findable, Accessible, Interoperable, and Reusable (FAIR)](https://www.go-fair.org/fair-principles/) whenever possible and reasonable, for instance, by publishing open-source papers and code. We believe this transparency is beneficial for scientific rigor and reproducibility.
 
 {% include section.html %}
 
