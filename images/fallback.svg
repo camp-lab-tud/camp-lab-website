@@ -1,10 +1,10 @@
-<!-- fallback image for component images. don't delete! -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750">
-  <rect fill="white" x="0" y="0" width="1000" height="750" />
-  <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-  <path
-    transform="translate(500, 375) scale(0.8) translate(-224, -256)"
-    fill="#f0f0f0"
-    d="M288 0H160 128C110.3 0 96 14.3 96 32s14.3 32 32 32V196.8c0 11.8-3.3 23.5-9.5 33.5L10.3 406.2C3.6 417.2 0 429.7 0 442.6C0 480.9 31.1 512 69.4 512H378.6c38.3 0 69.4-31.1 69.4-69.4c0-12.8-3.6-25.4-10.3-36.4L329.5 230.4c-6.2-10.1-9.5-21.7-9.5-33.5V64c17.7 0 32-14.3 32-32s-14.3-32-32-32H288zM192 196.8V64h64V196.8c0 23.7 6.6 46.9 19 67.1L309.5 320h-171L173 263.9c12.4-20.2 19-43.4 19-67.1z"
-  />
+  <!-- fallback image for component images. don't delete! -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - 
+https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+<path fill="#8ECAE6" d="M377 52c11-13.8 8.8-33.9-5-45s-33.9-8.8-45 5L288 60.8 249
+ 12c-11-13.8-31.2-16-45-5s-16 31.2-5 45l48 60L12.3 405.4C4.3 415.4 0 427.7
+ 0 440.4L0 464c0 26.5 21.5 48 48 48l240 0 240 0c26.5 0 48-21.5
+ 48-48l0-23.6c0-12.7-4.3-25.1-12.3-35L329 112l48-60zM288 448l-119.5 0L288 291.7 407.5
+ 448 288 448z"/>
 </svg>
