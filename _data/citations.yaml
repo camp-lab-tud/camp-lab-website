@@ -16,7 +16,7 @@
   file: sources.yaml
   type: paper
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0266353824001544-ga1_lrg.jpg
-  description: "This paper introduces a self\u2011catalysed frontal polymerisation\
+  description: "This paper introduces a self\u2011catalyzed frontal polymerization\
     \ technique for producing high fiber volume fraction polymer composites in a fast,\
     \ low\u2011energy process. The reaction front propagates rapidly by implanting\
     \ thin resin channels in thermal contact with the composite stack, optionally\
@@ -28,8 +28,9 @@
   tags:
   - composites
   - manufacturing
-  - frontal polymerisation
+  - frontal polymerization
   - out-of-autoclave
+  - sustainability
 - id: doi:10.3390/jcs7110465
   title: Multiscale Characterisation of Staple Carbon Fibre-Reinforced Polymers
   authors:
