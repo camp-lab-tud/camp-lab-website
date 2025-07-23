@@ -1,6 +1,6 @@
 ---
 title: Optimization of the mechanical performance of recycled polymers
-image: images/projects/2024-07-01-recycled-polymers-optimization/recycled-polymers-graphical-abstract.svg
+image: images/projects/recycled-polymers-optimization/recycled-polymers-graphical-abstract.svg
 investigator: ivan-cozar
 start_date: 2024-07-01
 tags:
@@ -16,7 +16,7 @@ Optimization of the mechanical performance of recycled composite polymers by Bay
 
 {%
   include figure.html
-  image="images/projects/2024-07-01-recycled-polymers-optimization/recycled-polymers-graphical-abstract.svg"
+  image="images/projects/recycled-polymers-optimization/recycled-polymers-graphical-abstract.svg"
   caption="Graphical abstract."
   width="800px"
 %}
