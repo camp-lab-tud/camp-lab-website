@@ -11,7 +11,7 @@ On this page, you can learn more about our latest research outputs. We are commi
 
 {% include section.html %}
 
-## Highlighted
+## Featured
 
 {% include citation.html lookup="Self-catalysed frontal polymerisation enables fast and low-energy processing of fibre reinforced polymer composites" style="rich" %}
 
