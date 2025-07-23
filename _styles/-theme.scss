@@ -3,8 +3,8 @@
 
 // colors
 [data-dark="false"] {
-  --primary: #FB8500;
-  --secondary: #023047;
+  --primary: #023047;
+  --secondary: #8ECAE6;
   --text: #202427;
   --background: #f1f3f4;
   --background-alt: #ecedf2;
@@ -14,8 +14,8 @@
   --overlay: #00000020;
 }
 [data-dark="true"] {
-  --primary: #023047;
-  --secondary: #FB8500;
+  --primary: #8ECAE6;
+  --secondary: #219EBC;
   --text: #f1f3f4;
   --background: #464b53;
   --background-alt: #7d8186;
