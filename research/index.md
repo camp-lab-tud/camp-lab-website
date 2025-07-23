@@ -9,14 +9,6 @@ nav:
 
 Learn more about our research.
 
-{% include search-box.html %}
-
-{% include tags.html tags=site.tags %}
-
-{% include search-info.html %}
-
-{% include section.html %}
-
 ## Featured
 
 {% include list.html data="projects" component="project-excerpt" filter="group == 'featured'" %}
@@ -24,6 +16,14 @@ Learn more about our research.
 {% include section.html %}
 
 ## All present and past projects
+
+{% include search-box.html %}
+
+{% include tags.html tags=page.tags %}
+
+{% include search-info.html %}
+
+{% include section.html %}
 
 {% include section.html %}
 

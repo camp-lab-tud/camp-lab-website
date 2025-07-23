@@ -21,6 +21,8 @@ On this page, you can learn more about our latest research outputs. We are commi
 
 {% include search-box.html %}
 
+{% include tags.html tags=page.tags %}
+
 {% include search-info.html %}
 
 {% include list.html data="citations" component="citation" style="rich" %}
