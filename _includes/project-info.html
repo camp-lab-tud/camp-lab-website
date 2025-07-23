@@ -1,0 +1,49 @@
+<div class="project-info">
+  {% if include.investigator %}
+    {% assign investigators = include.investigator
+      | join: ","
+      | downcase
+      | split: ","
+      | array_filter
+    %}
+    {% for investigator in investigators %}
+      {% assign member = site.members
+        | where_exp: "member", "member.slug == investigator"
+        | first
+      %}
+      {% if member %}
+        {% include portrait.html lookup=investigator style="tiny" %}
+      {% else %}
+        <span data-tooltip="Investigator">
+          {% include icon.html icon="fa-solid fa-feather-pointed" %}
+          <span>{{ investigator }}</span>
+        </span>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  {% assign start_date = include.start_date | date: "%Y" %}
+  {% assign end_date = include.end_date | date: "%Y" %}
+
+  {% if start_date %}
+    <span data-tooltip="Start date">
+      {% include icon.html icon="fa-regular fa-calendar" %}
+      <span>{{ start_date }}</span>
+    </span>
+  {% endif %}
+
+  {% if end_date and end_date != "" and end_date != start_date %}
+    <span data-tooltip="End date">
+      <span>- {{ end_date }}</span>
+    </span>
+  {% else %}
+    <span data-tooltip="Ongoing">
+      {% include icon.html icon="fa-solid fa-infinity" %}
+    </span>
+  {% endif %}
+
+</div>
+
+{% if include.tags %}
+  {% include tags.html tags=include.tags link="research" %}
+{% endif %}

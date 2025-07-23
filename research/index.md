@@ -17,7 +17,7 @@ Learn more about our research.
 
 {% include section.html %}
 
-<!-- ## Featured
+<!--- ## Featured
 
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
 

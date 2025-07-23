@@ -1,5 +1,7 @@
 ---
 title: Optimization of the mechanical performance of recycled polymers
+investigator: ivan-cozar
+start_date: 2024
 tags:
   - composites
   - finite element modeling
