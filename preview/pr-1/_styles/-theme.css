@@ -15,7 +15,7 @@
   --secondary: #219EBC;
   --text: #f1f3f4;
   --background: #464b53;
-  --background-alt: #7d8186;
+  --background-alt: #585d64;
   --light-gray: #767f8a;
   --gray: #a8adb4;
   --dark-gray: #ecedf2;
@@ -23,9 +23,9 @@
 }
 
 :root {
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Inter", sans-serif;
+  --heading: "Inter", sans-serif;
+  --body: "Inter", sans-serif;
   --code: "Roboto Mono", monospace;
   --large: 1.2rem;
   --xl: 1.4rem;
