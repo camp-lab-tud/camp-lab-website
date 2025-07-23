@@ -21,7 +21,13 @@ On this page, you can learn more about our latest research outputs. We are commi
 
 {% include search-box.html %}
 
-{% include tags.html tags=site.tags %}
+{% assign citation_tags = "" | split: "" %}
+
+{% for citation in site.citations %}
+  {% assign citation_tags = citation_tags | concat: citation.tags %}
+{% endfor %}
+
+{% include tags.html tags=citation_tags %}
 
 {% include search-info.html %}
 
