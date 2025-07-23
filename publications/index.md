@@ -21,7 +21,7 @@ On this page, you can learn more about our latest research outputs. We are commi
 
 {% include search-box.html %}
 
-{% include tags.html tags=page.tags %}
+{% include tags.html tags=site.tags %}
 
 {% include search-info.html %}
 

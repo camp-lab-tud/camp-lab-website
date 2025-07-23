@@ -13,7 +13,7 @@ Learn more about our latest activities and achievements.
 
 {% include search-box.html %}
 
-{% include tags.html tags=page.tags %}
+{% include tags.html tags=site.tags %}
 
 {% include search-info.html %}
 

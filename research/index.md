@@ -19,7 +19,7 @@ Learn more about our research.
 
 {% include search-box.html %}
 
-{% include tags.html tags=page.tags %}
+{% include tags.html tags=site.tags %}
 
 {% include search-info.html %}
 
