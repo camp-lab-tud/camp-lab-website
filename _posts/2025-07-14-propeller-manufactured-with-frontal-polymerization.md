@@ -19,7 +19,7 @@ This milestone was made possible thanks to [NXTGEN Hightech](https://nxtgenhight
 {%
   include figure.html
   image="images/news/2025-07-14-propeller-manufactured-with-frontal-polymerization/propeller-overview.jpg"
-  caption="The cured propeller. All rights reserved."
+  caption="The cured propeller."
   width="800px"
 %}
 
@@ -31,7 +31,7 @@ Why this matters:
 {%
   include figure.html
   image="images/news/2025-07-14-propeller-manufactured-with-frontal-polymerization/propeller-detail.jpg"
-  caption="Close view. Scale is about 1 meter. All rights reserved."
+  caption="Close view. Scale is about 1 meter."
   width="800px"
 %}
 
