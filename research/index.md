@@ -21,7 +21,7 @@ Learn more about our research.
 
 {% assign project_tags = "" | split: "" %}
 
-{% for project in site.data.projects %}
+{% for project in site.projects %}
   {% assign project_tags = project_tags | concat: project.tags %}
 {% endfor %}
 
