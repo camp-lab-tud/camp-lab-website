@@ -1,7 +1,7 @@
 ---
 ---
 
-.post-info {
+.project-info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,23 +11,23 @@
   color: var(--dark-gray);
 }
 
-.post-info .portrait {
+.project-info .portrait {
   margin: 0;
 }
 
-.post-info .icon {
+.project-info .icon {
   margin-right: 0.5em;
 }
 
-.post-info a {
+.project-info a {
   color: inherit;
 }
 
-.post-info a:hover {
+.project-info a:hover {
   color: var(--primary);
 }
 
-.post-info > span {
+.project-info > span {
   text-align: center;
   white-space: nowrap;
 }

@@ -3,7 +3,7 @@
 
 $wrap: 600px;
 
-.post-nav {
+.project-nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -11,29 +11,29 @@ $wrap: 600px;
   color: var(--gray);
 }
 
-.post-nav > :first-child {
+.project-nav > :first-child {
   text-align: left;
 }
 
-.post-nav > :last-child {
+.project-nav > :last-child {
   text-align: right;
 }
 
-.post-nav > :first-child .icon {
+.project-nav > :first-child .icon {
   margin-right: 0.5em;
 }
 
-.post-nav > :last-child .icon {
+.project-nav > :last-child .icon {
   margin-left: 0.5em;
 }
 
 @media (max-width: $wrap) {
-  .post-nav {
+  .project-nav {
     align-items: center;
     flex-direction: column;
   }
 
-  .post-nav > * {
+  .project-nav > * {
     text-align: center !important;
   }
 }

@@ -4,11 +4,11 @@
 $thumb-size: 200px;
 $wrap: 800px;
 
-.post-excerpt-container {
+.project-excerpt-container {
   container-type: inline-size;
 }
 
-.post-excerpt {
+.project-excerpt {
   display: flex;
   margin: 20px 0;
   border-radius: var(--rounded);
@@ -17,14 +17,14 @@ $wrap: 800px;
   box-shadow: var(--shadow);
 }
 
-.post-excerpt-image {
+.project-excerpt-image {
   position: relative;
   width: $thumb-size;
   flex-shrink: 0;
   // box-shadow: var(--shadow);
 }
 
-.post-excerpt-image img {
+.project-excerpt-image img {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -32,7 +32,7 @@ $wrap: 800px;
   object-fit: cover;
 }
 
-.post-excerpt-text {
+.project-excerpt-text {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -40,29 +40,29 @@ $wrap: 800px;
   text-align: left;
 }
 
-.post-excerpt-text > * {
+.project-excerpt-text > * {
   margin: 0 !important;
 }
 
-.post-excerpt-text > a:first-child {
+.project-excerpt-text > a:first-child {
   width: 100%;
   font-weight: var(--semi-bold);
 }
 
-.post-excerpt-text > div {
+.project-excerpt-text > div {
   justify-content: flex-start;
 }
 
-.post-excerpt-text > p {
+.project-excerpt-text > p {
   width: 100%;
 }
 
 @container (max-width: #{$wrap}) {
-  .post-excerpt {
+  .project-excerpt {
     flex-direction: column;
   }
 
-  .post-excerpt-image {
+  .project-excerpt-image {
     width: unset;
     height: $thumb-size;
   }
