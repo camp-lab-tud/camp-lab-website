@@ -1,8 +1,8 @@
-.post-excerpt-container {
+.project-excerpt-container {
   container-type: inline-size;
 }
 
-.post-excerpt {
+.project-excerpt {
   display: flex;
   margin: 20px 0;
   border-radius: var(--rounded);
@@ -11,13 +11,13 @@
   box-shadow: var(--shadow);
 }
 
-.post-excerpt-image {
+.project-excerpt-image {
   position: relative;
   width: 200px;
   flex-shrink: 0;
 }
 
-.post-excerpt-image img {
+.project-excerpt-image img {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -25,7 +25,7 @@
   object-fit: cover;
 }
 
-.post-excerpt-text {
+.project-excerpt-text {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -33,28 +33,28 @@
   text-align: left;
 }
 
-.post-excerpt-text > * {
+.project-excerpt-text > * {
   margin: 0 !important;
 }
 
-.post-excerpt-text > a:first-child {
+.project-excerpt-text > a:first-child {
   width: 100%;
   font-weight: var(--semi-bold);
 }
 
-.post-excerpt-text > div {
+.project-excerpt-text > div {
   justify-content: flex-start;
 }
 
-.post-excerpt-text > p {
+.project-excerpt-text > p {
   width: 100%;
 }
 
 @container (max-width: 800px) {
-  .post-excerpt {
+  .project-excerpt {
     flex-direction: column;
   }
-  .post-excerpt-image {
+  .project-excerpt-image {
     width: unset;
     height: 200px;
   }
