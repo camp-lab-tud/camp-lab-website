@@ -17,15 +17,15 @@ Learn more about our research.
 
 {% include section.html %}
 
-<!--- ## Featured
+## Featured
 
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+{% include list.html data="projects" component="project-excerpt" filter="group == 'featured'" %}
 
-{% include section.html %} -->
+{% include section.html %}
 
 ## All present and past projects
 
 {% include section.html %}
 
-{% include list.html data="projects" component="post-excerpt" %}
+{% include list.html data="projects" component="project-excerpt" %}
 
