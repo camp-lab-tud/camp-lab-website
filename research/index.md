@@ -19,7 +19,13 @@ Learn more about our research.
 
 {% include search-box.html %}
 
-{% include tags.html tags=site.tags %}
+{% assign project_tags = "" | split: "" %}
+
+{% for project in site.data.projects %}
+  {% assign project_tags = project_tags | concat: project.tags %}
+{% endfor %}
+
+{% include tags.html tags=project_tags %}
 
 {% include search-info.html %}
 
