@@ -5,7 +5,7 @@ nav:
   tooltip: News
 ---
 
-# {% include icon.html icon="fa-regular fa-newspaper" %}News
+# {% include icon.html icon="fa-solid fa-newspaper" %}News
 
 Learn more about our latest activities and achievements.
 

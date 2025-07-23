@@ -5,7 +5,7 @@ nav:
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-solid fa-lightbulb" %}Contact
 
 We are located within the [Department of Aerospace Structures and Materials](https://www.tudelft.nl/lr/organisatie/afdelingen/aerospace-structures-and-materials), on TU Delft campus.
 

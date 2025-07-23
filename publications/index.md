@@ -5,7 +5,7 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-regular fa-bookmark" %}Publications
+# {% include icon.html icon="fa-solid fa-bookmark" %}Publications
 
 On this page, you can learn more about our latest research outputs. We are committed to enforcing the [Findable, Accessible, Interoperable, and Reusable (FAIR)](https://www.go-fair.org/fair-principles/) whenever possible and reasonable, for instance, by publishing open-source papers and code. We believe this transparency is beneficial for scientific rigor and reproducibility.
 
