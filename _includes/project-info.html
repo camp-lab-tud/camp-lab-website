@@ -11,7 +11,7 @@
         | where_exp: "member", "member.slug == investigator"
         | first
       %}
-      <span data-tooltip="Investigator"></span>
+      <span data-tooltip="Investigator">
         {% if member %}
           {% include portrait.html lookup=investigator style="tiny" %}
         {% else %}
