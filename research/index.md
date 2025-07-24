@@ -31,7 +31,5 @@ Learn more about our research.
 
 {% include section.html %}
 
-{% include section.html %}
-
 {% include list.html data="projects" component="project-excerpt" %}
 
