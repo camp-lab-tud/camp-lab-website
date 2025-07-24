@@ -38,6 +38,11 @@ website:
   text: Website
   tooltip: Website
 
+tud_website:
+  icon: tud.svg
+  text: TU Delft website
+  tooltip: TU Delft website
+
 external:
   icon: fa-solid fa-up-right-from-square
   text: External Link

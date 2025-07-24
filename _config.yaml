@@ -8,7 +8,7 @@ proofer: false
 
 # site social media and other links
 links:
-  website: https://www.tudelft.nl/en/ae/organisation/departments/aerospace-structures-and-materials
+  tud_website: https://www.tudelft.nl/en/ae/organisation/departments/aerospace-structures-and-materials
   email: b.caglar@tudelft.nl
   orcid: 0000-0001-7771-7323
   google-scholar: nShlEwMAAAAJ
