@@ -11,14 +11,14 @@
         | where_exp: "member", "member.slug == investigator"
         | first
       %}
-      {% if member %}
-        {% include portrait.html lookup=investigator style="tiny" %}
-      {% else %}
-        <span data-tooltip="Investigator">
-          {% include icon.html icon="fa-solid fa-feather-pointed" %}
-          <span>{{ investigator }}</span>
-        </span>
-      {% endif %}
+      <span data-tooltip="Investigator"></span>
+        {% if member %}
+          {% include portrait.html lookup=investigator style="tiny" %}
+        {% else %}
+            {% include icon.html icon="fa-solid fa-feather-pointed" %}
+            <span>{{ investigator }}</span>
+        {% endif %}
+      </span>
     {% endfor %}
   {% endif %}
 
