@@ -29,17 +29,16 @@
     <span data-tooltip="Start date">
       {% include icon.html icon="fa-regular fa-calendar" %}
       <span>{{ start_date }}</span>
-      <span>-</span>
     </span>
   {% endif %}
-
+  <span>-</span>
   {% if end_date and end_date != "" and end_date != start_date %}
     <span data-tooltip="End date">
       <span>{{ end_date }}</span>
     </span>
   {% else %}
     <span data-tooltip="Ongoing">
-      <span>{% include icon.html icon="fa-solid fa-infinity" %}</span>
+      {% include icon.html icon="fa-solid fa-infinity" %}
     </span>
   {% endif %}
 
