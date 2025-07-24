@@ -1,6 +1,6 @@
 <div class="project-info">
-  {% if include.investigator %}
-    {% assign investigators = include.investigator
+  {% if include.investigators %}
+    {% assign investigators = include.investigators
       | join: ","
       | downcase
       | split: ","
@@ -17,6 +17,28 @@
         {% else %}
             {% include icon.html icon="fa-solid fa-feather-pointed" %}
             <span>{{ investigator }}</span>
+        {% endif %}
+      </span>
+    {% endfor %}
+  {% endif %}
+  {% if include.supervisors %}
+    {% assign supervisors = include.supervisors
+      | join: ","
+      | downcase
+      | split: ","
+      | array_filter
+    %}
+    {% for supervisor in supervisors %}
+      {% assign member = site.members
+        | where_exp: "member", "member.slug == supervisor"
+        | first
+      %}
+      <span data-tooltip="Supervisor">
+        {% if member %}
+          {% include portrait.html lookup=supervisor style="tiny" %}
+        {% else %}
+            {% include icon.html icon="fa-solid fa-feather-pointed" %}
+            <span>{{ supervisor }}</span>
         {% endif %}
       </span>
     {% endfor %}
