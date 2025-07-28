@@ -5,19 +5,12 @@
   | data_filter: include.filter
 %}
 
-{% if data.start_date %}
-  {% assign years = data
-    | group_by_exp: "d", "d.start_date | date: '%Y'"
-    | sort: "name"
-    | reverse
-  %}
-{% else %}
-  {% assign years = data
-    | group_by_exp: "d", "d.date | date: '%Y'"
-    | sort: "name"
-    | reverse
-  %}
-{% endif %}
+{% assign years = data
+  | group_by_exp: "d", "(d.start_date | date: '%Y') | default: (d.date | date: '%Y')"
+  | sort: "name"
+  | reverse
+%}
+{{ years | size }} items found.
 
 {% for year in years %}
   {% assign data = year.items %}
