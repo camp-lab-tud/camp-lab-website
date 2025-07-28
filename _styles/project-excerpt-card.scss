@@ -4,8 +4,9 @@
 .project-excerpt-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px;
   align-items: stretch;
+  justify-content: safe center;
 }
 
 .project-excerpt-card {
@@ -13,7 +14,7 @@
   // justify-content: stretch;
   // align-items: center;
   flex-direction: column;
-  flex: 0 0 520px;
+  flex: 0 0 560px;
   max-width: calc(100% - 20px - 20px);
   margin: 0;
   background: var(--background);
