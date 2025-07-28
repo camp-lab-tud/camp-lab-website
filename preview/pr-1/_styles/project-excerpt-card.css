@@ -3,7 +3,7 @@
   justify-content: stretch;
   align-items: center;
   flex-direction: column;
-  width: 800px;
+  width: 780px;
   max-width: calc(100% - 20px - 20px);
   margin: 20px;
   background: var(--background);
@@ -47,4 +47,4 @@
   font-style: italic;
 }
 
-/*# sourceMappingURL=project-excerpt.css.map */
+/*# sourceMappingURL=project-excerpt-card.css.map */
