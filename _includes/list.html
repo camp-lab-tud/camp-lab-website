@@ -12,7 +12,8 @@
 %}
 
 {% for d in data %}
-  {{ (d.start_date | date: '%Y') | default: (d.date | date: '%Y') }}
+  {{ d.start_date | date: '%Y' }}
+  {{ d.date | date: '%Y' }}
 {% endfor %}
 
 {{ years }} items found.
