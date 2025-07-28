@@ -11,7 +11,7 @@
   | reverse
 %}
 
-{ for d in data %}
+{% for d in data %}
   {{ (d.start_date | date: '%Y') | default: (d.date | date: '%Y') }}
 {% endfor %}
 
