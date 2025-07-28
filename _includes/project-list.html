@@ -12,6 +12,9 @@
   | reverse
 %}
 
+{% if include.style != "expand" %}
+  <div class="project-excerpt-container">
+{% endif %}
 {% for year in years %}
   {% assign data = year.items %}
 
@@ -20,6 +23,7 @@
       {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
       {% assign data = data | sort: "date" | reverse %}
     {% endif %}
+    <div class="project-excerpt-container"></div>
   {% else %}
     {% if years.size > 1 %}
       {% assign data = data | sort: "date" | reverse %}
@@ -52,4 +56,10 @@
       url=d.url
     %}
   {% endfor %}
+  {% if include.style == "expand" %}
+    </div>
+  {% endif %}
 {% endfor %}
+{% if include.style != "expand" %}
+  </div>
+{% endif %}
