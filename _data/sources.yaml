@@ -5,10 +5,20 @@
   type: paper
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0266353824001544-ga1_lrg.jpg
   description: This paper introduces a self‑catalyzed frontal polymerization technique for producing high fiber volume fraction polymer composites in a fast, low‑energy process. The reaction front propagates rapidly by implanting thin resin channels in thermal contact with the composite stack, optionally using fillers to tune cure kinetics, preheating the fabric, and eliminating the need for continuous external heating. The resulting parts have a significantly higher glass transition temperature than those produced in a conventional oven, and comparable mechanical properties, while energy consumption is reduced by over 99.5%.
-  group: featured
+  group:
   tags:
   - composites
   - manufacturing
   - frontal polymerization
   - out-of-autoclave
   - sustainability
+
+- id: doi:10.1016/j.compositesa.2024.108630
+  type: paper
+  description: This paper presents the results of an international benchmarking study involving 19 participants measuring out-of-plane permeability using standardized guidelines. Statistical analysis showed that following these guidelines significantly reduced variability and outliers. The findings support the proposed method as a strong candidate for standardization.
+  group:
+  tags:
+  - composites
+  - manufacturing
+  - permeability
+  - experimental characterization
