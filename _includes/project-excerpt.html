@@ -8,7 +8,7 @@
   {% assign project = include %}
 {% endif %}
 
-<div class="card" data-style="{{ include.style }}">
+<div class="project-excerpt-card" data-style="{{ include.style }}">
   {% assign url = project.url | relative_url | uri_escape %}
   {% assign title = project.title %}
   {% assign image = project.image | relative_url | uri_escape %}
