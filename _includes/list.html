@@ -10,8 +10,7 @@
   | sort: "name"
   | reverse
 %}
-{{ d.start_date | date: '%Y' }}
-{{ d.date | date: '%Y' }}
+
 {{ years }} items found.
 
 {% for year in years %}
@@ -23,6 +22,7 @@
   {% endif %}
 
   {% for d in data %}
+    {{ d.start_date | date: '%Y' }}
     {% assign style = d.style | default: include.style %}
 
     {%
