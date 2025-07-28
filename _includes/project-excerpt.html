@@ -13,9 +13,7 @@
   {% assign title = project.title %}
   {% assign image = project.image | relative_url | uri_escape %}
   <a
-    {% if include.link %}
-      href="{{ url }}"
-    {% endif %}
+    
     aria-label="{{ include.title | default: "card link" | regex_strip }}"
     class="card-image"
   >
@@ -27,19 +25,13 @@
     >
   </a>
 
+  {% if include.link %}
+      href="{{ link }}"
+  {% endif %}
+
   <div class="card-text">
     {% if include.title %}
-      <a
-        {% if include.link %}
-          href="{{ url }}"
-        {% endif %}
-        {% if include.tooltip %}
-          data-tooltip="{{ include.tooltip | xml_escape }}"
-        {% endif %}
-        class="card-title"
-      >
-        {{ include.title }}
-    </a>
+      <a href="{{ url }}" class="card-title">{{ include.title }}</a>
     {% endif %}
 
     {%
