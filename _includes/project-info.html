@@ -1,4 +1,5 @@
 <div class="project-info">
+  <div class="project-people">
   {% if include.investigators %}
     {% assign investigators = include.investigators
       | join: ","
@@ -6,7 +7,6 @@
       | split: ","
       | array_filter
     %}
-    <div class="project-investigators">
       {% for investigator in investigators %}
         {% assign member = site.members
           | where_exp: "member", "member.slug == investigator"
@@ -21,7 +21,6 @@
           {% endif %}
         </span> 
       {% endfor %}
-    </div>
   {% endif %}
   {% if include.supervisors %}
     {% assign supervisors = include.supervisors
@@ -30,7 +29,6 @@
       | split: ","
       | array_filter
     %}
-    <div class="project-supervisors">
       {% for supervisor in supervisors %}
         {% assign member = site.members
           | where_exp: "member", "member.slug == supervisor"
@@ -45,9 +43,9 @@
           {% endif %}
         </span>
       {% endfor %}
-    </div>
   {% endif %}
-
+  </div>
+  
   {% assign start_date = include.start_date | date: "%Y" %}
   {% assign end_date = include.end_date | date: "%Y" %}
   {% assign website = include.link | relative_url | uri_escape %}
