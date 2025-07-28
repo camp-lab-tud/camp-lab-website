@@ -73,8 +73,20 @@
   link: https://doi.org/g9vg4w
   orcid: 0000-0001-7771-7323
   baris-caglar: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  description: This paper presents the results of an international benchmarking study
+    involving 19 participants measuring out-of-plane permeability using standardized
+    guidelines. Statistical analysis showed that following these guidelines significantly
+    reduced variability and outliers. The findings support the proposed method as
+    a strong candidate for standardization.
+  group: null
+  tags:
+  - composites
+  - manufacturing
+  - permeability
+  - experimental characterization
 - id: doi:10.1016/j.compscitech.2024.110584
   title: Self-catalysed frontal polymerisation enables fast and low-energy processing
     of fibre reinforced polymer composites
@@ -100,7 +112,7 @@
     \ higher glass transition temperature than those produced in a conventional oven,\
     \ and comparable mechanical properties, while energy consumption is reduced by\
     \ over 99.5%."
-  group: featured
+  group: null
   tags:
   - composites
   - manufacturing
