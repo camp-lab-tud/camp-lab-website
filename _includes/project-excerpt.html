@@ -8,26 +8,23 @@
   {% assign project = include %}
 {% endif %}
 
+{% assign url = project.url | relative_url | uri_escape %}
+{% assign title = project.title %}
+{% assign image = project.image | relative_url | uri_escape %}
 <div class="project-excerpt-card" data-style="{{ include.style }}">
-  {% assign url = project.url | relative_url | uri_escape %}
-  {% assign title = project.title %}
-  {% assign image = project.image | relative_url | uri_escape %}
+  
   <a
-    
-    aria-label="{{ include.title | default: "card link" | regex_strip }}"
+    href="{{ url }}"
+    aria-label="{{ title | default: "card link" | regex_strip }}"
     class="card-image"
   >
     <img
-      src="{{ include.image | relative_url | uri_escape }}"
-      alt="{{ include.title | default: "card image" | regex_strip }}"
+      src="{{ image }}"
+      alt="{{ title | default: "card image" | regex_strip }}"
       loading="lazy"
       {% include fallback.html %}
     >
   </a>
-
-  {% if include.link %}
-      href="{{ link }}"
-  {% endif %}
 
   <div class="card-text">
     {% if include.title %}

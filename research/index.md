@@ -7,6 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research projects
 
+Learn more about our research.
+
 {% include search-box.html %}
 
 {% assign project_tags = "" | split: "" %}
@@ -19,11 +21,9 @@ nav:
 
 {% include search-info.html %}
 
-Learn more about our research.
-
 {% include section.html %}
 
-## Ongoing
+## Ongoing projects
 
 {% include project-list.html data="projects" component="project-excerpt" filter="!end_date"%}
 

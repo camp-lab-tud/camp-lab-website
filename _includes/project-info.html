@@ -6,20 +6,23 @@
       | split: ","
       | array_filter
     %}
-    {% for investigator in investigators %}
-      {% assign member = site.members
-        | where_exp: "member", "member.slug == investigator"
-        | first
-      %}
-      <span data-tooltip="Investigator">
-        {% if member %}
-          {% include portrait.html lookup=investigator style="tiny" %}
-        {% else %}
-            {% include icon.html icon="fa-solid fa-feather-pointed" %}
-            <span>{{ investigator }}</span>
-        {% endif %}
-      </span>
-    {% endfor %}
+    <div class="project-investigators">
+      <span>Investigators:</span>
+      {% for investigator in investigators %}
+        {% assign member = site.members
+          | where_exp: "member", "member.slug == investigator"
+          | first
+        %}
+        <span data-tooltip="Investigator">
+          {% if member %}
+            {% include portrait.html lookup=investigator style="tiny" %}
+          {% else %}
+              {% include icon.html icon="fa-solid fa-feather-pointed" %}
+              <span>{{ investigator }}</span>
+          {% endif %}
+        </span> 
+      {% endfor %}
+    </div>
   {% endif %}
   {% if include.supervisors %}
     {% assign supervisors = include.supervisors
@@ -28,41 +31,54 @@
       | split: ","
       | array_filter
     %}
-    {% for supervisor in supervisors %}
-      {% assign member = site.members
-        | where_exp: "member", "member.slug == supervisor"
-        | first
-      %}
-      <span data-tooltip="Supervisor">
-        {% if member %}
-          {% include portrait.html lookup=supervisor style="tiny" %}
-        {% else %}
-            {% include icon.html icon="fa-solid fa-feather-pointed" %}
-            <span>{{ supervisor }}</span>
-        {% endif %}
-      </span>
-    {% endfor %}
+    <div class="project-supervisors">
+      <span>Supervisors:</span> 
+      {% for supervisor in supervisors %}
+        {% assign member = site.members
+          | where_exp: "member", "member.slug == supervisor"
+          | first
+        %}
+        <span data-tooltip="Supervisor">
+          {% if member %}
+            {% include portrait.html lookup=supervisor style="tiny" %}
+          {% else %}
+              {% include icon.html icon="fa-solid fa-feather-pointed" %}
+              <span>{{ supervisor }}</span>
+          {% endif %}
+        </span>
+      {% endfor %}
+    </div>
   {% endif %}
 
   {% assign start_date = include.start_date | date: "%Y" %}
   {% assign end_date = include.end_date | date: "%Y" %}
+  {% assign website = include.link %}
 
-  {% if start_date %}
-    <span data-tooltip="Start date">
-      {% include icon.html icon="fa-regular fa-calendar" %}
-      <span>{{ start_date }}</span>
-    </span>
-  {% endif %}
-  <span>-</span>
-  {% if end_date and end_date != "" and end_date != start_date %}
-    <span data-tooltip="End date">
-      <span>{{ end_date }}</span>
-    </span>
-  {% else %}
-    <span data-tooltip="Ongoing">
-      {% include icon.html icon="fa-solid fa-infinity" %}
-    </span>
-  {% endif %}
+  <div class="project-metadata"></div>
+    {% if start_date %}
+      <span data-tooltip="Start date">
+        {% include icon.html icon="fa-regular fa-calendar" %}
+        <span>{{ start_date }}</span>
+      </span>
+    {% endif %}
+    <span>-</span>
+    {% if end_date and end_date != "" and end_date != start_date %}
+      <span data-tooltip="End date">
+        <span>{{ end_date }}</span>
+      </span>
+    {% else %}
+      <span data-tooltip="Ongoing">
+        {% include icon.html icon="fa-solid fa-infinity" %}
+      </span>
+    {% endif %}
+    {% if website %}
+      <span data-tooltip="Website">
+        <a href="{{ website }}" target="_blank" rel="noopener noreferrer">
+          {% include icon.html icon="fa-solid fa-link" %}
+        </a>
+      </span>
+    {% endif %}
+  </div>
 
 </div>
 
