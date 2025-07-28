@@ -15,11 +15,6 @@
   {{ (d.start_date | date: '%Y') | default: (d.date | date: '%Y') }}
 {% endfor %}
 
-{% if years.size == 0 %}
-  <p class="center">No items found.</p>
-  {% return %}
-{% endif %}
-
 {{ years }} items found.
 
 {% for year in years %}
