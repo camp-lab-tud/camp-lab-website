@@ -8,54 +8,63 @@
   {% assign project = include %}
 {% endif %}
 
-<div class="project-excerpt-container">
-  <div class="project-excerpt">
-    {% assign url = project.url | relative_url | uri_escape %}
-    {% assign title = project.title %}
-    {% assign image = project.image | relative_url | uri_escape %}
+<div class="card" data-style="{{ include.style }}">
+  {% assign url = project.url | relative_url | uri_escape %}
+  {% assign title = project.title %}
+  {% assign image = project.image | relative_url | uri_escape %}
+  <a
+    {% if include.link %}
+      href="{{ url }}"
+    {% endif %}
+    aria-label="{{ include.title | default: "card link" | regex_strip }}"
+    class="card-image"
+  >
+    <img
+      src="{{ include.image | relative_url | uri_escape }}"
+      alt="{{ include.title | default: "card image" | regex_strip }}"
+      loading="lazy"
+      {% include fallback.html %}
+    >
+  </a>
 
-    {% if image %}
+  <div class="card-text">
+    {% if include.title %}
       <a
-        href="{{ url }}"
-        class="project-excerpt-image"
-        aria-label="{{ title | default: "excerpt link" | regex_strip }}"
+        {% if include.link %}
+          href="{{ url }}"
+        {% endif %}
+        {% if include.tooltip %}
+          data-tooltip="{{ include.tooltip | xml_escape }}"
+        {% endif %}
+        class="card-title"
       >
-        <img
-          src="{{ image }}"
-          alt="{{ title | default: "excerpt image" | regex_strip }}"
-          loading="lazy"
-          {% include fallback.html %}
-        >
-      </a>
+        {{ include.title }}
+    </a>
     {% endif %}
 
-    <div class="project-excerpt-text">
-      <a href="{{ url }}">{{ title }}</a>
+    {%
+      include project-info.html
+      investigators=project.investigators
+      supervisors=project.supervisors
+      start_date=project.start_date
+      end_date=project.end_date
+      tags=project.tags
+    %}
 
-      {%
-        include project-info.html
-        investigators=project.investigators
-        supervisors=project.supervisors
-        start_date=project.start_date
-        end_date=project.end_date
-        tags=project.tags
-      %}
-
-      {% assign excerpt = project.content
-        | default: ""
-        | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
-        | default: project.excerpt
-        | default: ""
-        | strip_html
-      %}
-      {% assign search = project.content
-        | strip_html
-        | strip_newlines
-        | regex_strip
-      %}
-      <p data-search="{{ search }}">
-        {{ excerpt }}
-      </p>
-    </div>
+    {% assign excerpt = project.content
+      | default: ""
+      | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
+      | default: project.excerpt
+      | default: ""
+      | strip_html
+    %}
+    {% assign search = project.content
+      | strip_html
+      | strip_newlines
+      | regex_strip
+    %}
+    <p data-search="{{ search }}">
+      {{ excerpt }}
+    </p>
   </div>
 </div>
