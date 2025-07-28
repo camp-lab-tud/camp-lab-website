@@ -11,11 +11,11 @@ Learn more about our research.
 
 ## Ongoing
 
-{% include project-list.html data="projects" component="project-excerpt" filter="!end_date" %}
+{% include project-list.html data="projects" component="project-excerpt" filter="!end_date"%}
 
 {% include section.html %}
 
-## All present and past projects
+## Past projects
 
 {% include search-box.html %}
 
@@ -32,6 +32,6 @@ Learn more about our research.
 {% include section.html %}
 
 <div class="project-excerpt-container">
-  {% include project-list.html data="projects" component="project-excerpt" filter="end_date" %}
+  {% include project-list.html data="projects" component="project-excerpt" filter="end_date" style="expand"%}
 </div>
 
