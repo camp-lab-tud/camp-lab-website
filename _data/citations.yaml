@@ -1,5 +1,80 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1002/pc.29448
+  title: "A methodology for microstructural evaluation of unsaturated flow phenomena\
+    \ by in\u2010situ <scp>UV</scp>\u2010flow freezing"
+  authors:
+  - Jeroen Staal
+  - Baris Caglar
+  - "V\xE9ronique Michaud"
+  publisher: Polymer Composites
+  date: '2024-12-31'
+  link: https://doi.org/g9vg4v
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2024.108630
+  title: Towards standardisation of the out-of-plane permeability measurement for
+    reinforcement textiles
+  authors:
+  - A.X.H. Yong
+  - A. Endruweit
+  - A. George
+  - D. May
+  - Y.A. Aksoy
+  - M.A. Ali
+  - T. Allen
+  - P. Baral
+  - C. Betteridge
+  - C. Brauner
+  - B. Caglar
+  - A. Chiminelli
+  - D. Cracknell
+  - L. Dame
+  - J. Dittmann
+  - C. Dransfeld
+  - S. Drapier
+  - "J.A. Garc\xEDa Manrique"
+  - E. Garrigou
+  - A. Guilloux
+  - P. Hubert
+  - J. Ivens
+  - J. Janzen
+  - T. Khan
+  - H. Kikuta
+  - K. Kind
+  - M. Laspalas
+  - J. Lee
+  - X. Liu
+  - M. Lizaranzu
+  - S.V. Lomov
+  - K. Masania
+  - V. Michaud
+  - P. Middendorf
+  - S. Miguel
+  - "J. Mu\xF1oz"
+  - S.S. Narayana
+  - C.H. Park
+  - G. Pedoto
+  - A. Pisupati
+  - D. Sayinbas
+  - P. Sousa
+  - M. Sozer
+  - J. Staal
+  - M. Steinhardt
+  - H. Teixido
+  - R. Umer
+  - J.D. Vincent
+  - V. Werlen
+  - O. Yuksel
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2025-03-01'
+  link: https://doi.org/g9vg4w
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.compscitech.2024.110584
   title: Self-catalysed frontal polymerisation enables fast and low-energy processing
     of fibre reinforced polymer composites
@@ -32,6 +107,23 @@
   - frontal polymerization
   - out-of-autoclave
   - sustainability
+- id: doi:10.1002/pc.28171
+  title: 'Saturated transverse permeability of unidirectional rovings for pultrusion:
+    The effect of microstructural evolution through compaction'
+  authors:
+  - Onur Yuksel
+  - Baris Caglar
+  - Guillaume Broggi
+  - "V\xE9ronique Michaud"
+  - Remko Akkerman
+  - Ismet Baran
+  publisher: Polymer Composites
+  date: '2024-02-07'
+  link: https://doi.org/g9vg4z
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.3390/jcs7110465
   title: Multiscale Characterisation of Staple Carbon Fibre-Reinforced Polymers
   authors:
@@ -61,6 +153,211 @@
   publisher: Composites Science and Technology
   date: '2023-05-01'
   link: https://doi.org/g76t7d
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2022.107397
+  title: 'Benchmark exercise on image-based permeability determination of engineering
+    textiles: Microscale predictions'
+  authors:
+  - E. Syerko
+  - T. Schmidt
+  - D. May
+  - C. Binetruy
+  - S.G. Advani
+  - S. Lomov
+  - L. Silva
+  - S. Abaimov
+  - N. Aissa
+  - I. Akhatov
+  - M. Ali
+  - N. Asiaban
+  - G. Broggi
+  - J. Bruchon
+  - B. Caglar
+  - H. Digonnet
+  - J. Dittmann
+  - S. Drapier
+  - A. Endruweit
+  - A. Guilloux
+  - R. Kandinskii
+  - A. Leygue
+  - B. Mahato
+  - "P. Mart\xEDnez-Lera"
+  - M. Matveev
+  - V. Michaud
+  - P. Middendorf
+  - N. Moulin
+  - "L. Org\xE9as"
+  - C.H. Park
+  - S. Rief
+  - M. Rouhi
+  - I. Sergeichev
+  - M. Shakoor
+  - O. Shishkina
+  - Y. Swolfs
+  - M. Tahani
+  - R. Umer
+  - K. Vanclooster
+  - R. Vorobyev
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2023-04-01'
+  link: https://doi.org/gsccdp
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/00218464.2023.2256670
+  title: "Debonding-on-demand Fe\n            <sub>3</sub>\n            O\n      \
+    \      <sub>4</sub>\n            -epoxy adhesively bonded dissimilar joints via\
+    \ electromagnetic induction heating"
+  authors:
+  - Hasan Caglar
+  - Y. Altay Aksoy
+  - Sridhar Idapalapati
+  - Baris Caglar
+  - Mohit Sharma
+  - Chian Kerm Sin
+  publisher: The Journal of Adhesion
+  date: '2023-09-13'
+  link: https://doi.org/g9vg42
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fmats.2023.1296247
+  title: 'Editorial: ECCM Research Topic on advanced manufacturing of composites'
+  authors:
+  - Christophe Binetruy
+  - Baris Caglar
+  - Lode Daelemans
+  - Clemens Dransfeld
+  - "V\xE9ronique Michaud"
+  publisher: Frontiers in Materials
+  date: '2023-09-27'
+  link: https://doi.org/g9vg43
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2023.107733
+  title: Effect of wettability and textile architecture on fluid displacement and
+    pore formation during infiltration of carbon fibrous preforms
+  authors:
+  - "Helena Teixid\xF3"
+  - Baris Caglar
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2023-11-01'
+  link: https://doi.org/g9vg44
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2023.107520
+  title: Measurement and modelling of dynamic fluid saturation in carbon reinforcements
+  authors:
+  - "Helena Teixid\xF3"
+  - Guillaume Broggi
+  - Baris Caglar
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2023-06-01'
+  link: https://doi.org/g9vg45
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jclepro.2021.129808
+  title: 'A life cycle analysis of novel lightweight composite processes: Reducing
+    the environmental footprint of automotive structures'
+  authors:
+  - Stephanie Wegmann
+  - Christian Rytka
+  - Mariona Diaz-Rodenas
+  - Vincent Werlen
+  - Christoph Schneeberger
+  - Paolo Ermanni
+  - Baris Caglar
+  - Colin Gomez
+  - "V\xE9ronique Michaud"
+  publisher: Journal of Cleaner Production
+  date: '2022-01-01'
+  link: https://doi.org/gvxm56
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fmats.2022.809226
+  title: 'Capillary Effects in Fiber Reinforced Polymer Composite Processing: A Review'
+  authors:
+  - "Helena Teixid\xF3"
+  - Jeroen Staal
+  - Baris Caglar
+  - "V\xE9ronique Michaud"
+  publisher: Frontiers in Materials
+  date: '2022-02-10'
+  link: https://doi.org/g9vg46
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2533/chimia.2022.249
+  title: Community Masks - from an Emergency Solution to an Innovation Booster for
+    the Textile Industry
+  authors:
+  - Till Batt
+  - Gordon Herwig
+  - Simon Annaheim
+  - Pietro Clement
+  - Lea Furrer
+  - Cordula Hirsch
+  - Vincent Varanges
+  - Baris Caglar
+  - Veronique Michaud
+  - Jing Wang
+  - Gilles Richner
+  - Peter Wick
+  - "Ren\xE9 Rossi"
+  publisher: CHIMIA
+  date: '2022-03-30'
+  link: https://doi.org/g9vg47
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2022.106973
+  title: Deep learning accelerated prediction of the permeability of fibrous microstructures
+  authors:
+  - Baris Caglar
+  - Guillaume Broggi
+  - Muhammad A. Ali
+  - "Laurent Org\xE9as"
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2022-07-01'
+  link: https://doi.org/grr2kh
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41598-022-09068-1
+  title: On the durability of surgical masks after simulated handling and wear
+  authors:
+  - Vincent Varanges
+  - Baris Caglar
+  - Yann Lebaupin
+  - Till Batt
+  - Weidong He
+  - Jing Wang
+  - "Ren\xE9 M. Rossi"
+  - Gilles Richner
+  - Jean-Romain Delaloye
+  - "V\xE9ronique Michaud"
+  publisher: Scientific Reports
+  date: '2022-03-23'
+  link: https://doi.org/g9vg48
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
@@ -127,6 +424,76 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1002/admt.202000957
+  title: Functionalized Fiber Reinforced Composites via Thermally Drawn Multifunctional
+    Fiber Sensors
+  authors:
+  - Baris Caglar
+  - William Esposito
+  - "Tung Nguyen\u2010Dang"
+  - Stella Laperrousaz
+  - "V\xE9ronique Michaud"
+  - Fabien Sorin
+  publisher: Advanced Materials Technologies
+  date: '2021-02-10'
+  link: https://doi.org/g9vg49
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2021.106560
+  title: In-operando dynamic visualization of flow through porous preforms based on
+    X-ray phase contrast imaging
+  authors:
+  - "Helena Teixid\xF3"
+  - Baris Caglar
+  - Vincent Revol
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2021-10-01'
+  link: https://doi.org/g9vg5b
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2021.106631
+  title: In-series sample methodology for permeability characterization demonstrated
+    on carbon nanotube-grafted alumina textiles
+  authors:
+  - Jeroen Staal
+  - Baris Caglar
+  - Travis Hank
+  - Brian L. Wardle
+  - Larissa Gorbatikh
+  - Stepan V. Lomov
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2021-11-01'
+  link: https://doi.org/g9vg5c
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compscitech.2021.108706
+  title: 'Kinematic and mechanical response of dry woven fabrics in through-thickness
+    compression: Virtual fiber modeling with mesh overlay technique and experimental
+    validation'
+  authors:
+  - Lode Daelemans
+  - Brecht Tomme
+  - Baris Caglar
+  - "V\xE9ronique Michaud"
+  - Jeroen Van Stappen
+  - Veerle Cnudde
+  - Matthieu Boone
+  - Wim Van Paepegem
+  publisher: Composites Science and Technology
+  date: '2021-05-01'
+  link: https://doi.org/g9vg5d
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1177/0021998320963173
   title: Monitoring and modeling of part thickness evolution in vacuum infusion process
   authors:
@@ -136,6 +503,23 @@
   publisher: Journal of Composite Materials
   date: '2020-10-12'
   link: https://doi.org/g76t7m
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2021.106448
+  title: Resin Transfer molding of High-Fluidity Polyamide-6 with modified Glass-Fabric
+    preforms
+  authors:
+  - Colin Gomez
+  - Damiano Salvatori
+  - Baris Caglar
+  - Robin Trigueira
+  - Gilles Orange
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2021-08-01'
+  link: https://doi.org/g9vg5f
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
