@@ -15,10 +15,22 @@
 
 - id: doi:10.1016/j.compositesa.2024.108630
   type: paper
+  image:
   description: This paper presents the results of an international benchmarking study involving 19 participants measuring out-of-plane permeability using standardized guidelines. Statistical analysis showed that following these guidelines significantly reduced variability and outliers. The findings support the proposed method as a strong candidate for standardization.
   group:
   tags:
   - composites
   - manufacturing
   - permeability
+  - experimental characterization
+
+- id: doi:10.1002/pc.29448
+  type: paper  
+  image: https://4spepublications.onlinelibrary.wiley.com/cms/asset/965ee67c-69a5-4fd4-aa64-14c671ac9efe/pc29448-fig-0009-m.jpg
+  description:
+  group:
+  tags:
+  - composites
+  - manufacturing
+  - impregnation
   - experimental characterization
