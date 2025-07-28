@@ -32,7 +32,7 @@
       | array_filter
     %}
     <div class="project-supervisors">
-      <span>Supervisors:</span> 
+      <span>Supervisor(s):</span> 
       {% for supervisor in supervisors %}
         {% assign member = site.members
           | where_exp: "member", "member.slug == supervisor"
@@ -42,8 +42,8 @@
           {% if member %}
             {% include portrait.html lookup=supervisor style="tiny" %}
           {% else %}
-              {% include icon.html icon="fa-solid fa-feather-pointed" %}
-              <span>{{ supervisor }}</span>
+            {% include icon.html icon="fa-solid fa-feather-pointed" %}
+            <span>{{ supervisor }}</span>
           {% endif %}
         </span>
       {% endfor %}
