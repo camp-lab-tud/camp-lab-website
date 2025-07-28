@@ -29,4 +29,15 @@
   white-space: nowrap;
 }
 
+.project-info .project-metadata {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+}
+
 /*# sourceMappingURL=project-info.css.map */
