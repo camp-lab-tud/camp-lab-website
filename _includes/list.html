@@ -10,6 +10,8 @@
   | sort: "name"
   | reverse
 %}
+{{ d.start_date | date: '%Y' }}
+{{ d.date | date: '%Y' }}
 {{ years }} items found.
 
 {% for year in years %}
