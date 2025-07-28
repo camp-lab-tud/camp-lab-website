@@ -29,7 +29,18 @@
   white-space: nowrap;
 }
 
-.project-info .project-metadata {
+.project-info .project-investigators {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+}
+
+.project-info .project-supervisors {
   position: relative;
   display: inline-flex;
   justify-content: center;
