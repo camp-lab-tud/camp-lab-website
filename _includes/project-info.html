@@ -52,7 +52,7 @@
 
   {% assign start_date = include.start_date | date: "%Y" %}
   {% assign end_date = include.end_date | date: "%Y" %}
-  {% assign website = include.link %}
+  {% assign website = include.link | relative_url | uri_escape %}
   Link: {{ include.link }}
   <div class="project-metadata">
     {% if start_date %}
