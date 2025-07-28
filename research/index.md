@@ -7,16 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research projects
 
-Learn more about our research.
-
-## Ongoing
-
-{% include project-list.html data="projects" component="project-excerpt" filter="!end_date"%}
-
-{% include section.html %}
-
-## Past projects
-
 {% include search-box.html %}
 
 {% assign project_tags = "" | split: "" %}
@@ -29,9 +19,16 @@ Learn more about our research.
 
 {% include search-info.html %}
 
+Learn more about our research.
+
 {% include section.html %}
 
-<div class="project-excerpt-container">
-  {% include project-list.html data="projects" component="project-excerpt" filter="end_date" style="expand"%}
-</div>
+## Ongoing
 
+{% include project-list.html data="projects" component="project-excerpt" filter="!end_date"%}
+
+{% include section.html %}
+
+## Past projects
+
+{% include project-list.html data="projects" component="project-excerpt" filter="end_date" style="expand"%}
