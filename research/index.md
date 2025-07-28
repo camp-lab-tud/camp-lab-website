@@ -32,6 +32,6 @@ Learn more about our research.
 {% include section.html %}
 
 <div class="project-excerpt-container">
-  {% include list.html data="projects" component="project-excerpt" %}
+  {% include project-list.html data="projects" component="project-excerpt" %}
 </div>
 
