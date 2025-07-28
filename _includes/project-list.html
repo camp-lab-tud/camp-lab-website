@@ -21,7 +21,6 @@
   {% endif %}
 
   {% for d in data %}
-    {{ d.start_date | date: '%Y' }}
     {% assign style = d.style | default: include.style %}
 
     {%
