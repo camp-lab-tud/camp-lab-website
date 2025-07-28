@@ -7,7 +7,7 @@
 
 {% if data.start_date %}
   {% assign years = data
-    | group_by_exp: "d", "d.start_date | date: '%Y'"
+    | group_by_exp: "d", "d.start_date | start_date: '%Y'"
     | sort: "name"
     | reverse
   %}
