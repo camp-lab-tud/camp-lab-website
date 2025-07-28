@@ -9,9 +9,9 @@ nav:
 
 Learn more about our research.
 
-## Featured
+## Ongoing
 
-{% include list.html data="projects" component="project-excerpt" filter="group == 'featured'" %}
+{% include project-list.html data="projects" component="project-excerpt" filter="!end_date" %}
 
 {% include section.html %}
 
@@ -32,6 +32,6 @@ Learn more about our research.
 {% include section.html %}
 
 <div class="project-excerpt-container">
-  {% include project-list.html data="projects" component="project-excerpt" %}
+  {% include project-list.html data="projects" component="project-excerpt" filter="end_date" %}
 </div>
 

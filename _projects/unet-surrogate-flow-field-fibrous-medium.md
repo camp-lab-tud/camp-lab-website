@@ -4,6 +4,7 @@ image: images/projects/unet-surrogate-flow-field-fibrous-medium/unet-flow-micro-
 investigators: jimmy-jean
 supervisors: guillaume-broggi
 start_date: 2023-07-01
+end_date:
 tags:
   - composites
   - computational fluid dynamics

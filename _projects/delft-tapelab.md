@@ -4,6 +4,7 @@ image: images/projects/delft-tapelab/delt-tapelab-illustration.webp
 investigators: ehshan-ul-haq
 supervisors: onur-yuksel, oguz-eryilmaz
 start_date: 2023-07-01
+end_date:
 tags:
   - composites
   - manufacturing
