@@ -10,6 +10,7 @@ def pick_best_id(ids):
     - prefer doi ids
     - prefer ids with a "self", "version-of", or "part-of" relationship
     - return first id if no other ids match
+    - if no ids, return None
     """
     for id in ids:
         if get_safe(id, "external-id-type", "") == "doi":

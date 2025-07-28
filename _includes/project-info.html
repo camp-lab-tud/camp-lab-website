@@ -54,7 +54,7 @@
   {% assign end_date = include.end_date | date: "%Y" %}
   {% assign website = include.link %}
 
-  <div class="project-metadata"></div>
+  <div class="project-metadata">
     {% if start_date %}
       <span data-tooltip="Start date">
         {% include icon.html icon="fa-regular fa-calendar" %}
