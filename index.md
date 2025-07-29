@@ -23,5 +23,14 @@ CAMP Lab is a research group at [TU Delft (NL)](https://www.tudelft.nl/en/) focu
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 <script>
-  new Glide('.glide').mount()
+  const config = {
+    type: "carousel",
+    perView: 2,
+    breakpoints: {
+      600: {
+        perView: 2
+      }
+    }
+  }
+  new Glide('.glide', config).mount()
 </script>
