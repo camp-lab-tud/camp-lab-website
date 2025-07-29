@@ -356,6 +356,10 @@
 <!-- include all css in styles folder -->
 
 
+  <link href="/camp-lab-website/preview/pr-1/_styles/glide.core.css" rel="stylesheet">
+
+  <link href="/camp-lab-website/preview/pr-1/_styles/glide.theme.css" rel="stylesheet">
+
 
   <!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
@@ -533,77 +537,24 @@ https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
 
 <h2 id="highlights">Highlights</h2>
 
-<div class="feature">
-  <a href="/camp-lab-website/preview/pr-1/research" class="feature-image" aria-label="Our Research">
-    <img src="/camp-lab-website/preview/pr-1/images/photo.jpg" loading="lazy" alt="Our Research" onerror="this.src = '/camp-lab-website/preview/pr-1/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-      <p class="feature-title">Our Research</p>
-    
-    
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-<div class="button-wrapper">
-    <a class="button" href="/camp-lab-website/preview/pr-1/publication" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>See our publications</span>
-      
-    </a>
+<div class="glide">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+      <li class="glide__slide">0</li>
+      <li class="glide__slide">1</li>
+      <li class="glide__slide">2</li>
+    </ul>
   </div>
-
-
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="&lt;">prev</button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir="&gt;">next</button>
   </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 
-<div class="feature" data-flip="">
-  <a href="/camp-lab-website/preview/pr-1/projects" class="feature-image" aria-label="Our Projects">
-    <img src="/camp-lab-website/preview/pr-1/images/photo.jpg" loading="lazy" alt="Our Projects" onerror="this.src = '/camp-lab-website/preview/pr-1/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-      <p class="feature-title">Our Projects</p>
-    
-    
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-<div class="button-wrapper">
-    <a class="button" href="/camp-lab-website/preview/pr-1/projects" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>Browse our projects</span>
-      
-    </a>
-  </div>
-
-
-  </div>
-</div>
-
-<div class="feature">
-  <a href="/camp-lab-website/preview/pr-1/team" class="feature-image" aria-label="Our Team">
-    <img src="/camp-lab-website/preview/pr-1/images/photo.jpg" loading="lazy" alt="Our Team" onerror="this.src = '/camp-lab-website/preview/pr-1/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-      <p class="feature-title">Our Team</p>
-    
-    
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-<div class="button-wrapper">
-    <a class="button" href="/camp-lab-website/preview/pr-1/team" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>Meet our team</span>
-      
-    </a>
-  </div>
-
-
-  </div>
-</div>
+<script>
+  new Glide('.glide').mount()
+</script>
   </section>
 
 
