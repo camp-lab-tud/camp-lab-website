@@ -1,1 +1,1 @@
-Sitemap: https://comma-tud.github.io/camp-lab-website/sitemap.xml
+Sitemap: http://camp-lab.org/sitemap.xml
