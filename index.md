@@ -38,5 +38,5 @@ At CAMP Lab, our research focuses on sustainable composites and their manufactur
       }
     }
   }
-  new Glide('.glide', config).mount()
+  new Glide('.glide', config).mount({ Autoplay })
 </script>
