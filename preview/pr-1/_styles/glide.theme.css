@@ -32,6 +32,15 @@
 .glide__arrow--disabled {
   opacity: 0.33;
 } */
+.glider-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
 .glide__bullets {
   position: absolute;
   z-index: 2;
