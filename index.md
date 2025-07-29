@@ -9,14 +9,14 @@ CAMP Lab is a research group at [TU Delft (NL)](https://www.tudelft.nl/en/) focu
 ## Highlights
 
 <div class="glide">
-  <div class="glide__track" data-glide-el="track">
+  <div class="glide__track project-excerpt-container" data-glide-el="track">
     <ul class="glide__slides">
       {% include project-glider.html data="projects" component="project-excerpt" filter="!end_date"%}
     </ul>
   </div>
   <div class="glide__arrows" data-glide-el="controls">
-    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">{% include icon.html icon="fa-solid fa-arrow-left" %}</button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">{% include icon.html icon="fa-solid fa-arrow-right" %}</button>
   </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
