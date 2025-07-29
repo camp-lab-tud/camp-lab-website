@@ -36,10 +36,6 @@
   max-height: 1000px;
   min-height: 500px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
 }
 
 .glide__bullets {
