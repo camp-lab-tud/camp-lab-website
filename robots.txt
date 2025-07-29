@@ -1,1 +1,1 @@
-Sitemap: http://camp-lab.org/sitemap.xml
+Sitemap: https://camp-lab.org/sitemap.xml
