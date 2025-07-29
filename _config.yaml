@@ -1,19 +1,18 @@
 # site properties and page defaults
-title: COMMA-TUD
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
+title: CAMP Lab at TU Delft
+subtitle: Where innovation sparkles
+description: The CAMP Lab is a research group at TU Delft focusing on advanced materials processing and composite structures.
+header: images/background.png
+footer: images/background.png
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@COMMA-TUD.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: COMMA-TUD
-  twitter: COMMA-TUD
-  youtube: COMMA-TUD
+  tud_website: https://www.tudelft.nl/en/ae/organisation/departments/aerospace-structures-and-materials
+  email: b.caglar@tudelft.nl
+  orcid: 0000-0001-7771-7323
+  google-scholar: nShlEwMAAAAJ
+  github: COMMA-TUD 
 
 ### jekyll settings
 
@@ -34,6 +33,11 @@ defaults:
       type: "posts"
     values:
       layout: post
+  # markdown files in /_projects
+  - scope:
+      type: "projects"
+    values:
+      layout: project
 
 collections:
   # generate page for each member
@@ -41,6 +45,9 @@ collections:
     output: true
   # generate page for each post
   posts:
+    output: true
+  # generate page for each project
+  projects:
     output: true
 
 # jekyll plugins

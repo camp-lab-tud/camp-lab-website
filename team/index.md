@@ -1,35 +1,28 @@
 ---
 title: Team
 nav:
-  order: 3
+  order: 4
   tooltip: About our team
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are a multidisciplinary team at TU Delft led by Prof. Baris Caglar. Our research combines experimental techniques and numerical approaches, including machine learning, to study the properties of composite materials and their manufacturing. We believe great science happens in open, diverse, and collaborative yet excellence-minded environments, and our team reflects those values.
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
+{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{% include section.html background="images/background.png" dark=true %}
+Our mission is to push the boundaries of composite materials and advanced manufacturing. We actively welcome fresh ideas and novel perspectives and are committed to training the next generation of researchers. Learn more about our open positions and available MSc thesis projects.
+{% include button.html icon="fa-solid fa-handshake-angle" text="Join us!" link="opportunities" style="button" %}
 
 {% include section.html %}
 
-{% capture content %}
+# {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include list.html data="members" component="portrait" filter="role == 'alumni'" style="small"  %}
 
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
+# {% include icon.html icon="fa-solid fa-building-columns" %}Funding

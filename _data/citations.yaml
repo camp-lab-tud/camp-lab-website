@@ -1,247 +1,772 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1002/pc.29448
+  title: "A methodology for microstructural evaluation of unsaturated flow phenomena\
+    \ by in\u2010situ <scp>UV</scp>\u2010flow freezing"
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
-  authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
-  authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
-  authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
+  - Jeroen Staal
+  - Baris Caglar
+  - "V\xE9ronique Michaud"
+  publisher: Polymer Composites
+  date: '2024-12-31'
+  link: https://doi.org/g9vg4v
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
   plugin: sources.py
   file: sources.yaml
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
+  image: https://4spepublications.onlinelibrary.wiley.com/cms/asset/965ee67c-69a5-4fd4-aa64-14c671ac9efe/pc29448-fig-0009-m.jpg
+  description: null
+  group: null
   tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  - composites
+  - manufacturing
+  - impregnation
+  - experimental characterization
+- id: doi:10.1016/j.compositesa.2024.108630
+  title: Towards standardisation of the out-of-plane permeability measurement for
+    reinforcement textiles
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
+  - A.X.H. Yong
+  - A. Endruweit
+  - A. George
+  - D. May
+  - Y.A. Aksoy
+  - M.A. Ali
+  - T. Allen
+  - P. Baral
+  - C. Betteridge
+  - C. Brauner
+  - B. Caglar
+  - A. Chiminelli
+  - D. Cracknell
+  - L. Dame
+  - J. Dittmann
+  - C. Dransfeld
+  - S. Drapier
+  - "J.A. Garc\xEDa Manrique"
+  - E. Garrigou
+  - A. Guilloux
+  - P. Hubert
+  - J. Ivens
+  - J. Janzen
+  - T. Khan
+  - H. Kikuta
+  - K. Kind
+  - M. Laspalas
+  - J. Lee
+  - X. Liu
+  - M. Lizaranzu
+  - S.V. Lomov
+  - K. Masania
+  - V. Michaud
+  - P. Middendorf
+  - S. Miguel
+  - "J. Mu\xF1oz"
+  - S.S. Narayana
+  - C.H. Park
+  - G. Pedoto
+  - A. Pisupati
+  - D. Sayinbas
+  - P. Sousa
+  - M. Sozer
+  - J. Staal
+  - M. Steinhardt
+  - H. Teixido
+  - R. Umer
+  - J.D. Vincent
+  - V. Werlen
+  - O. Yuksel
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2025-03-01'
+  link: https://doi.org/g9vg4w
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: null
+  description: This paper presents the results of an international benchmarking study
+    involving 19 participants measuring out-of-plane permeability using standardized
+    guidelines. Statistical analysis showed that following these guidelines significantly
+    reduced variability and outliers. The findings support the proposed method as
+    a strong candidate for standardization.
+  group: null
+  tags:
+  - composites
+  - manufacturing
+  - permeability
+  - experimental characterization
+- id: doi:10.1016/j.compscitech.2024.110584
+  title: Self-catalysed frontal polymerisation enables fast and low-energy processing
+    of fibre reinforced polymer composites
+  authors:
+  - Jeroen Staal
+  - Baris Caglar
+  - "V\xE9ronique Michaud"
+  publisher: Composites Science and Technology
+  date: '2024-05-01'
+  link: https://doi.org/g76t68
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0266353824001544-ga1_lrg.jpg
+  description: "This paper introduces a self\u2011catalyzed frontal polymerization\
+    \ technique for producing high fiber volume fraction polymer composites in a fast,\
+    \ low\u2011energy process. The reaction front propagates rapidly by implanting\
+    \ thin resin channels in thermal contact with the composite stack, optionally\
+    \ using fillers to tune cure kinetics, preheating the fabric, and eliminating\
+    \ the need for continuous external heating. The resulting parts have a significantly\
+    \ higher glass transition temperature than those produced in a conventional oven,\
+    \ and comparable mechanical properties, while energy consumption is reduced by\
+    \ over 99.5%."
+  group: null
+  tags:
+  - composites
+  - manufacturing
+  - frontal polymerization
+  - out-of-autoclave
+  - sustainability
+- id: doi:10.1002/pc.28171
+  title: 'Saturated transverse permeability of unidirectional rovings for pultrusion:
+    The effect of microstructural evolution through compaction'
+  authors:
+  - Onur Yuksel
+  - Baris Caglar
+  - Guillaume Broggi
+  - "V\xE9ronique Michaud"
+  - Remko Akkerman
+  - Ismet Baran
+  publisher: Polymer Composites
+  date: '2024-02-07'
+  link: https://doi.org/g9vg4z
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+- id: doi:10.3390/jcs7110465
+  title: Multiscale Characterisation of Staple Carbon Fibre-Reinforced Polymers
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+  - Lucian Zweifel
+  - Julian Kupski
+  - Clemens Dransfeld
+  - Baris Caglar
+  - Stephan Baz
+  - Damian Cessario
+  - "G\xF6tz T. Gresser"
+  - Christian Brauner
+  publisher: Journal of Composites Science
+  date: '2023-11-06'
+  link: https://doi.org/g76t7b
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compscitech.2023.110009
+  title: Thermal management in radical induced cationic frontal polymerisation for
+    optimised processing of fibre reinforced polymers
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
-  plugin: sources.py
-  file: sources.yaml
+  - Jeroen Staal
+  - Edgar Smit
+  - Baris Caglar
+  - "V\xE9ronique Michaud"
+  publisher: Composites Science and Technology
+  date: '2023-05-01'
+  link: https://doi.org/g76t7d
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2022.107397
+  title: 'Benchmark exercise on image-based permeability determination of engineering
+    textiles: Microscale predictions'
+  authors:
+  - E. Syerko
+  - T. Schmidt
+  - D. May
+  - C. Binetruy
+  - S.G. Advani
+  - S. Lomov
+  - L. Silva
+  - S. Abaimov
+  - N. Aissa
+  - I. Akhatov
+  - M. Ali
+  - N. Asiaban
+  - G. Broggi
+  - J. Bruchon
+  - B. Caglar
+  - H. Digonnet
+  - J. Dittmann
+  - S. Drapier
+  - A. Endruweit
+  - A. Guilloux
+  - R. Kandinskii
+  - A. Leygue
+  - B. Mahato
+  - "P. Mart\xEDnez-Lera"
+  - M. Matveev
+  - V. Michaud
+  - P. Middendorf
+  - N. Moulin
+  - "L. Org\xE9as"
+  - C.H. Park
+  - S. Rief
+  - M. Rouhi
+  - I. Sergeichev
+  - M. Shakoor
+  - O. Shishkina
+  - Y. Swolfs
+  - M. Tahani
+  - R. Umer
+  - K. Vanclooster
+  - R. Vorobyev
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2023-04-01'
+  link: https://doi.org/gsccdp
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/00218464.2023.2256670
+  title: "Debonding-on-demand Fe\n            <sub>3</sub>\n            O\n      \
+    \      <sub>4</sub>\n            -epoxy adhesively bonded dissimilar joints via\
+    \ electromagnetic induction heating"
+  authors:
+  - Hasan Caglar
+  - Y. Altay Aksoy
+  - Sridhar Idapalapati
+  - Baris Caglar
+  - Mohit Sharma
+  - Chian Kerm Sin
+  publisher: The Journal of Adhesion
+  date: '2023-09-13'
+  link: https://doi.org/g9vg42
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fmats.2023.1296247
+  title: 'Editorial: ECCM Research Topic on advanced manufacturing of composites'
+  authors:
+  - Christophe Binetruy
+  - Baris Caglar
+  - Lode Daelemans
+  - Clemens Dransfeld
+  - "V\xE9ronique Michaud"
+  publisher: Frontiers in Materials
+  date: '2023-09-27'
+  link: https://doi.org/g9vg43
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2023.107733
+  title: Effect of wettability and textile architecture on fluid displacement and
+    pore formation during infiltration of carbon fibrous preforms
+  authors:
+  - "Helena Teixid\xF3"
+  - Baris Caglar
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2023-11-01'
+  link: https://doi.org/g9vg44
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2023.107520
+  title: Measurement and modelling of dynamic fluid saturation in carbon reinforcements
+  authors:
+  - "Helena Teixid\xF3"
+  - Guillaume Broggi
+  - Baris Caglar
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2023-06-01'
+  link: https://doi.org/g9vg45
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jclepro.2021.129808
+  title: 'A life cycle analysis of novel lightweight composite processes: Reducing
+    the environmental footprint of automotive structures'
+  authors:
+  - Stephanie Wegmann
+  - Christian Rytka
+  - Mariona Diaz-Rodenas
+  - Vincent Werlen
+  - Christoph Schneeberger
+  - Paolo Ermanni
+  - Baris Caglar
+  - Colin Gomez
+  - "V\xE9ronique Michaud"
+  publisher: Journal of Cleaner Production
+  date: '2022-01-01'
+  link: https://doi.org/gvxm56
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fmats.2022.809226
+  title: 'Capillary Effects in Fiber Reinforced Polymer Composite Processing: A Review'
+  authors:
+  - "Helena Teixid\xF3"
+  - Jeroen Staal
+  - Baris Caglar
+  - "V\xE9ronique Michaud"
+  publisher: Frontiers in Materials
+  date: '2022-02-10'
+  link: https://doi.org/g9vg46
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2533/chimia.2022.249
+  title: Community Masks - from an Emergency Solution to an Innovation Booster for
+    the Textile Industry
+  authors:
+  - Till Batt
+  - Gordon Herwig
+  - Simon Annaheim
+  - Pietro Clement
+  - Lea Furrer
+  - Cordula Hirsch
+  - Vincent Varanges
+  - Baris Caglar
+  - Veronique Michaud
+  - Jing Wang
+  - Gilles Richner
+  - Peter Wick
+  - "Ren\xE9 Rossi"
+  publisher: CHIMIA
+  date: '2022-03-30'
+  link: https://doi.org/g9vg47
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2022.106973
+  title: Deep learning accelerated prediction of the permeability of fibrous microstructures
+  authors:
+  - Baris Caglar
+  - Guillaume Broggi
+  - Muhammad A. Ali
+  - "Laurent Org\xE9as"
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2022-07-01'
+  link: https://doi.org/grr2kh
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41598-022-09068-1
+  title: On the durability of surgical masks after simulated handling and wear
+  authors:
+  - Vincent Varanges
+  - Baris Caglar
+  - Yann Lebaupin
+  - Till Batt
+  - Weidong He
+  - Jing Wang
+  - "Ren\xE9 M. Rossi"
+  - Gilles Richner
+  - Jean-Romain Delaloye
+  - "V\xE9ronique Michaud"
+  publisher: Scientific Reports
+  date: '2022-03-23'
+  link: https://doi.org/g9vg48
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2020.106243
+  title: 'Experimental characterisation of textile compaction response: A benchmark
+    exercise'
+  authors:
+  - A.X.H. Yong
+  - A. Aktas
+  - D. May
+  - A. Endruweit
+  - S.V. Lomov
+  - S. Advani
+  - P. Hubert
+  - S.G. Abaimov
+  - D. Abliz
+  - I. Akhatov
+  - M.A. Ali
+  - S. Allaoui
+  - T. Allen
+  - D.C. Berg
+  - S. Bickerton
+  - B. Caglar
+  - P. Causse
+  - A. Chiminelli
+  - S. Comas-Cardona
+  - M. Danzi
+  - J. Dittmann
+  - C. Dransfeld
+  - P. Ermanni
+  - E. Fauster
+  - A. George
+  - J. Gillibert
+  - Q. Govignon
+  - R. Graupner
+  - V. Grishaev
+  - A. Guilloux
+  - M.A. Kabachi
+  - A. Keller
+  - K. Kind
+  - D. Large
+  - M. Laspalas
+  - O.V. Lebedev
+  - M. Lizaranzu
+  - A.C. Long
+  - "C. L\xF3pez"
+  - K. Masania
+  - V. Michaud
+  - P. Middendorf
+  - P. Mitschang
+  - S. van Oosterom
+  - R. Schubnel
+  - N. Sharp
+  - P. Sousa
+  - F. Trochu
+  - R. Umer
+  - J. Valette
+  - J.H. Wang
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2021-03-01'
+  link: https://doi.org/g76t7h
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/admt.202000957
+  title: Functionalized Fiber Reinforced Composites via Thermally Drawn Multifunctional
+    Fiber Sensors
+  authors:
+  - Baris Caglar
+  - William Esposito
+  - "Tung Nguyen\u2010Dang"
+  - Stella Laperrousaz
+  - "V\xE9ronique Michaud"
+  - Fabien Sorin
+  publisher: Advanced Materials Technologies
+  date: '2021-02-10'
+  link: https://doi.org/g9vg49
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2021.106560
+  title: In-operando dynamic visualization of flow through porous preforms based on
+    X-ray phase contrast imaging
+  authors:
+  - "Helena Teixid\xF3"
+  - Baris Caglar
+  - Vincent Revol
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2021-10-01'
+  link: https://doi.org/g9vg5b
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2021.106631
+  title: In-series sample methodology for permeability characterization demonstrated
+    on carbon nanotube-grafted alumina textiles
+  authors:
+  - Jeroen Staal
+  - Baris Caglar
+  - Travis Hank
+  - Brian L. Wardle
+  - Larissa Gorbatikh
+  - Stepan V. Lomov
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2021-11-01'
+  link: https://doi.org/g9vg5c
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compscitech.2021.108706
+  title: 'Kinematic and mechanical response of dry woven fabrics in through-thickness
+    compression: Virtual fiber modeling with mesh overlay technique and experimental
+    validation'
+  authors:
+  - Lode Daelemans
+  - Brecht Tomme
+  - Baris Caglar
+  - "V\xE9ronique Michaud"
+  - Jeroen Van Stappen
+  - Veerle Cnudde
+  - Matthieu Boone
+  - Wim Van Paepegem
+  publisher: Composites Science and Technology
+  date: '2021-05-01'
+  link: https://doi.org/g9vg5d
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/0021998320963173
+  title: Monitoring and modeling of part thickness evolution in vacuum infusion process
+  authors:
+  - Baris Caglar
+  - Mert Hancioglu
+  - E Murat Sozer
+  publisher: Journal of Composite Materials
+  date: '2020-10-12'
+  link: https://doi.org/g76t7m
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2021.106448
+  title: Resin Transfer molding of High-Fluidity Polyamide-6 with modified Glass-Fabric
+    preforms
+  authors:
+  - Colin Gomez
+  - Damiano Salvatori
+  - Baris Caglar
+  - Robin Trigueira
+  - Gilles Orange
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2021-08-01'
+  link: https://doi.org/g9vg5f
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2019.01.023
+  title: 3D spacers enhance flow kinetics in resin transfer molding with woven fabrics
+  authors:
+  - Damiano Salvatori
+  - Baris Caglar
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2019-04-01'
+  link: https://doi.org/g76t7z
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2019.02.018
+  title: Assessment of capillary phenomena in liquid composite molding
+  authors:
+  - Baris Caglar
+  - Cem Tekin
+  - Feyza Karasu
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2019-05-01'
+  link: https://doi.org/gr9wzp
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compstruct.2019.111235
+  title: Crushing and intrusion resistance improvement of aluminum beams by carbon/epoxy
+    composite patches
+  authors:
+  - Y. Lebaupin
+  - J. Friedli
+  - B. Caglar
+  - M. Piccand
+  - R. Pasquier
+  - V. Michaud
+  publisher: Composite Structures
+  date: '2019-10-01'
+  link: https://doi.org/g76t78
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2019.03.006
+  title: 'In-plane permeability characterization of engineering textiles based on
+    radial flow experiments: A benchmark exercise'
+  authors:
+  - D. May
+  - A. Aktas
+  - S.G. Advani
+  - D.C. Berg
+  - A. Endruweit
+  - E. Fauster
+  - S.V. Lomov
+  - A. Long
+  - P. Mitschang
+  - S. Abaimov
+  - D. Abliz
+  - I. Akhatov
+  - M.A. Ali
+  - T.D. Allen
+  - S. Bickerton
+  - M. Bodaghi
+  - B. Caglar
+  - H. Caglar
+  - A. Chiminelli
+  - N. Correia
+  - B. Cosson
+  - M. Danzi
+  - J. Dittmann
+  - P. Ermanni
+  - G. Francucci
+  - A. George
+  - V. Grishaev
+  - M. Hancioglu
+  - M.A. Kabachi
+  - K. Kind
+  - "M. Del\xE9glise-Lagard\xE8re"
+  - M. Laspalas
+  - O.V. Lebedev
+  - M. Lizaranzu
+  - P.-J. Liotier
+  - P. Middendorf
+  - "J. Mor\xE1n"
+  - C.-H. Park
+  - R.B. Pipes
+  - M.F. Pucci
+  - J. Raynal
+  - E.S. Rodriguez
+  - R. Schledjewski
+  - R. Schubnel
+  - N. Sharp
+  - G. Sims
+  - E.M. Sozer
+  - P. Sousa
+  - J. Thomas
+  - R. Umer
+  - W. Wijaya
+  - B. Willenbacher
+  - A. Yong
+  - S. Zaremba
+  - G. Ziegmann
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2019-06-01'
+  link: https://doi.org/gmbwh8
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2018.07.036
+  title: In-plane permeability distribution mapping of isotropic mats using flow front
+    detection
+  authors:
+  - Baris Caglar
+  - Damiano Salvatori
+  - E. Murat Sozer
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2018-10-01'
+  link: https://doi.org/gfbktr
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2018.02.015
+  title: Permeability and capillary effects in a channel-wise non-crimp fabric
+  authors:
+  - Damiano Salvatori
+  - Baris Caglar
+  - "Helena Teixid\xF3"
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2018-05-01'
+  link: https://doi.org/gdfkqt
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compscitech.2018.08.043
+  title: Tailoring swelling to control softening mechanisms during cyclic loading
+    of PEG/cellulose hydrogel composites
+  authors:
+  - A. Khoushabi
+  - C.S. Wyss
+  - B. Caglar
+  - D. Pioletti
+  - P.-E. Bourban
+  publisher: Composites Science and Technology
+  date: '2018-11-01'
+  link: https://doi.org/g76t8h
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/0731684416684211
+  title: Effect of permeability characterization at different boundary and flow conditions
+    on vacuum infusion process modeling
+  authors:
+  - M Akif Yalcinkaya
+  - Baris Caglar
+  - E Murat Sozer
+  publisher: Journal of Reinforced Plastics and Composites
+  date: '2016-12-15'
+  link: https://doi.org/f96ngz
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compositesa.2017.03.031
+  title: Permeability of textile fabrics with spherical inclusions
+  authors:
+  - Baris Caglar
+  - "Laurent Org\xE9as"
+  - Sabine Rolland du Roscoat
+  - E. Murat Sozer
+  - "V\xE9ronique Michaud"
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2017-08-01'
+  link: https://doi.org/gbk4nd
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/0021998316685164
+  title: Pressure-controlled compaction characterization of fiber preforms suitable
+    for viscoelastic modeling in the vacuum infusion process
+  authors:
+  - Bekir Yenilmez
+  - Baris Caglar
+  - E Murat Sozer
+  publisher: Journal of Composite Materials
+  date: '2017-01-05'
+  link: https://doi.org/g76t8j
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/0021998317699983
+  title: Viscoelastic modeling of fiber preform compaction in vacuum infusion process
+  authors:
+  - Bekir Yenilmez
+  - Baris Caglar
+  - E Murat Sozer
+  publisher: Journal of Composite Materials
+  date: '2017-03-27'
+  link: https://doi.org/gc492z
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/0021998314541305
+  title: Modeling of post-filling stage in vacuum infusion using compaction characterization
+  authors:
+  - Baris Caglar
+  - Bekir Yenilmez
+  - E Murat Sozer
+  publisher: Journal of Composite Materials
+  date: '2014-07-03'
+  link: https://doi.org/f7jkrh
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml

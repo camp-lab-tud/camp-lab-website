@@ -2,26 +2,33 @@
 title: Research
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Ongoing and past research topics
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Research projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-## Highlighted
-
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
-
-{% include section.html %}
-
-## All
+Learn more about our research.
 
 {% include search-box.html %}
 
+{% assign project_tags = "" | split: "" %}
+
+{% for project in site.projects %}
+  {% assign project_tags = project_tags | concat: project.tags %}
+{% endfor %}
+
+{% include tags.html tags=project_tags %}
+
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include section.html %}
+
+## Ongoing projects
+
+{% include project-list.html data="projects" component="project-excerpt" filter="!end_date"%}
+
+{% include section.html %}
+
+## Past projects
+
+{% include project-list.html data="projects" component="project-excerpt" filter="end_date" style="expand"%}

@@ -1,81 +1,42 @@
 ---
 ---
+# The Composites and Advanced Materials Processing Lab
 
-# COMMA-TUD's Website
+CAMP Lab is a research group at [TU Delft (NL)](https://www.tudelft.nl/en/) focusing on advanced materials processing and composite structures. The group is led by [Prof. Baris Caglar](members/baris-caglar), and is part of the [Aerospace Structures and Materials department from the Faculty of Aerospace Engineering](https://www.tudelft.nl/en/ae/organisation/departments/aerospace-structures-and-materials).
 
-An engaging 1-3 sentence description of your lab.
+At CAMP Lab, our research focuses on sustainable composites and their manufacturing through resource and energy efficient processing enabled by data-driven approaches. Three main pillars of our research are
+- **Resource-efficient** advanced composites based on unidirectional thermoplastic tapes 
+- **Energy-efficient** processing of thermoset-based advanced composites through frontal polymerization
+- **Data-driven** approaches for improved process design and control through the use state-of-the-art AI models
+
 
 {% include section.html %}
 
 ## Highlights
 
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
+<div class="glider-container">
+  <div class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        {% include project-glider.html data="projects" component="project-excerpt" filter="!end_date"%}
+      </ul>
+    </div>
+    <div class="glide__arrows" data-glide-el="controls">
+      <button class="glide__arrow glide__arrow--left" data-glide-dir="<">{% include icon.html icon="fa-solid fa-arrow-left" %}</button>
+      <button class="glide__arrow glide__arrow--right" data-glide-dir=">">{% include icon.html icon="fa-solid fa-arrow-right" %}</button>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script>
+  const config = {
+    type: "carousel",
+    perView: 2,
+    breakpoints: {
+      600: {
+        perView: 2
+      }
+    }
+  }
+  new Glide('.glide', config).mount()
+</script>

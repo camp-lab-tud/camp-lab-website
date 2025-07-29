@@ -4,6 +4,27 @@ from util import *
 from manubot.cite.handlers import prefix_to_handler as manubot_prefixes
 
 
+def pick_best_id(ids):
+    """
+    pick the best id from a list of ids returned by the orcid api
+    - prefer doi ids
+    - prefer ids with a "self", "version-of", or "part-of" relationship
+    - return first id if no other ids match
+    - if no ids, return None
+    """
+    for id in ids:
+        if get_safe(id, "external-id-type", "") == "doi":
+            return id
+    for id in ids:
+        if get_safe(id, "external-id-relationship", "") in (
+            "self",
+            "version-of",
+            "part-of",
+        ):
+            return id
+    return ids[0] if ids else None
+
+
 def main(entry):
     """
     receives single list entry from orcid data file
@@ -41,15 +62,7 @@ def main(entry):
             ids = ids + get_safe(summary, "external-ids.external-id", [])
 
         # find first id of particular "relationship" type
-        _id = next(
-            (
-                id
-                for id in ids
-                if get_safe(id, "external-id-relationship", "")
-                in ["self", "version-of", "part-of"]
-            ),
-            ids[0] if len(ids) > 0 else None,
-        )
+        _id = pick_best_id(ids)
 
         if _id == None:
             continue
