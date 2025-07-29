@@ -34,9 +34,14 @@ At CAMP Lab, our research focuses on sustainable composites and their manufactur
     perView: 2,
     breakpoints: {
       600: {
+        perView: 1
+      },
+      1200: {
         perView: 2
       }
-    }
+    },
+    autoplay: 3000,
+    hoverpause: true
   }
-  new Glide('.glide', config).mount({ Autoplay })
+  new Glide('.glide', config).mount()
 </script>
