@@ -9,7 +9,7 @@ CAMP Lab is a research group at [TU Delft (NL)](https://www.tudelft.nl/en/) focu
 ## Highlights
 
 <div class="glide">
-  <div class="glide__track project-excerpt-container" data-glide-el="track">
+  <div class="glide__track" data-glide-el="track">
     <ul class="glide__slides">
       {% include project-glider.html data="projects" component="project-excerpt" filter="!end_date"%}
     </ul>
