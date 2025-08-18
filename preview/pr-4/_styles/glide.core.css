@@ -22,6 +22,9 @@
   white-space: nowrap;
   display: flex;
   flex-wrap: nowrap;
+  gap: 40px;
+  align-items: stretch;
+  justify-content: safe center;
   will-change: transform;
 }
 .glide__slides--dragging {
