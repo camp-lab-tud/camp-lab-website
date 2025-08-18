@@ -8,7 +8,6 @@
 
 .project-excerpt-card {
   display: flex;
-  height: 100%;
   flex-direction: column;
   flex: 0 0 560px;
   max-width: calc(100% - 20px - 20px);
@@ -22,6 +21,10 @@
 
 .project-excerpt-card[data-style=small] {
   width: 250px;
+}
+
+.project-excerpt-card[data-style=slide] {
+  height: 100%;
 }
 
 .project-excerpt-card-image img {
