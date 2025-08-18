@@ -25,10 +25,10 @@ Learn more about our research.
 
 ## Ongoing projects
 
-{% include project-list.html data="projects" component="project-excerpt" filter="!end_date"%}
+{% include project-list.html data="projects" component="project-excerpt" filter="!end_date" glider=false%}
 
 {% include section.html %}
 
 ## Past projects
 
-{% include project-list.html data="projects" component="project-excerpt" filter="end_date" style="expand"%}
+{% include project-list.html data="projects" component="project-excerpt" filter="end_date" style="expand" glider=false%}
