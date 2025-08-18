@@ -43,5 +43,22 @@ At CAMP Lab, our research focuses on sustainable composites and their manufactur
     autoplay: 2000,
     hoverpause: true
   }
-  new Glide('.glide', config).mount()
+  
+  const glide = new Glide('.glide', config)
+  glide.mount()
+
+  function equalizeHeights() {
+    const slides = document.querySelectorAll('.glide__slide')
+    let maxHeight = 0
+    slides.forEach(slide => {
+      slide.style.height = 'auto'
+      maxHeight = Math.max(maxHeight, slide.offsetHeight)
+    })
+    slides.forEach(slide => slide.style.height = maxHeight + 'px')
+  }
+
+  window.addEventListener('load', equalizeHeights)
+  window.addEventListener('resize', equalizeHeights)
+  glide.on(['run.after', 'mount.after'], equalizeHeights)
+
 </script>
