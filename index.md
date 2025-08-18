@@ -29,29 +29,22 @@ At CAMP Lab, our research focuses on sustainable composites and their manufactur
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 <script>
-  const config = {
+  const glide = new Glide('.glide', {
     type: "carousel",
     perView: 2,
     breakpoints: {
-      600: {
-        perView: 1
-      },
-      1200: {
-        perView: 2
-      }
+      600: { perView: 1 },
+      1200: { perView: 2 }
     },
     autoplay: 2000,
     hoverpause: true
-  }
-  
-  const glide = new Glide('.glide', config)
-  glide.mount()
+  }).mount()
 
   function equalizeHeights() {
     const slides = document.querySelectorAll('.glide__slide')
     let maxHeight = 0
     slides.forEach(slide => {
-      slide.style.height = 'auto'
+      slide.style.height = 'auto' // reset in case of resize
       maxHeight = Math.max(maxHeight, slide.offsetHeight)
     })
     slides.forEach(slide => slide.style.height = maxHeight + 'px')
@@ -59,6 +52,4 @@ At CAMP Lab, our research focuses on sustainable composites and their manufactur
 
   window.addEventListener('load', equalizeHeights)
   window.addEventListener('resize', equalizeHeights)
-  glide.on(['run.after', 'mount.after'], equalizeHeights)
-
 </script>
