@@ -1,4 +1,4 @@
-/* .glide__arrow {
+.glide__arrow {
   position: absolute;
   display: block;
   top: 50%;
@@ -31,7 +31,7 @@
 }
 .glide__arrow--disabled {
   opacity: 0.33;
-} */
+}
 .glider-container {
   max-height: 1000px;
   min-height: 500px;
