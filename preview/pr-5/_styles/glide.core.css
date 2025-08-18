@@ -8,6 +8,7 @@
 }
 .glide__track {
   overflow: hidden;
+  margin: 0 auto;
 }
 .glide__slides {
   position: relative;
