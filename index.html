@@ -523,7 +523,7 @@ https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
 
 <p>CAMP Lab is a research group at <a href="https://www.tudelft.nl/en/">TU Delft (NL)</a> focusing on advanced materials processing and composite structures. The group is led by <a href="members/baris-caglar">Prof. Baris Caglar</a>, and is part of the <a href="https://www.tudelft.nl/en/ae/organisation/departments/aerospace-structures-and-materials">Aerospace Structures and Materials department from the Faculty of Aerospace Engineering</a>.</p>
 
-<p>At CAMP Lab, our research focuses on sustainable composites and their manufacturing through resource and energy efficient processing enabled by data-driven approaches. Three main pillars of our research are</p>
+<p>At CAMP Lab, our research focuses on sustainable composites and their manufacturing through resource and energy efficient processing enabled by data-driven approaches. The three main pillars of our research are:</p>
 <ul>
   <li>
 <strong>Resource-efficient</strong> advanced composites based on unidirectional thermoplastic tapes</li>
@@ -550,7 +550,7 @@ https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
 <div class="glider-container">
   <div class="glide">
     <div class="glide__track" data-glide-el="track">
-      <ul class="glide__slides">
+      <div class="glide__slides">
         
 
 
@@ -558,21 +558,25 @@ https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
 
 
 
-  
 
- 
   
-
 
   
     
-    <li class="glide__slide">
+  
+
+  
+    
+
     
 
 
 
 
-<div class="project-excerpt-card" data-style="">
+
+<div class="glide__slide">
+
+<div class="project-excerpt-card" data-style="slide">
   
   <a href="/projects/recycled-polymers-optimization.html" aria-label="Optimization of the mechanical performance of recycled polymers" class="card-image">
     <img src="/images/projects/recycled-polymers-optimization/recycled-polymers-graphical-abstract.svg" alt="Optimization of the mechanical performance of recycled polymers" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -685,24 +689,30 @@ Optimization of the mechanical performance of recycled composite polymers by Bay
   </div>
 </div>
 
-  </li>
+</div>
+
+
+  
   
 
   
-
- 
-  
-
 
   
     
-    <li class="glide__slide">
+  
+
+  
+    
+
     
 
 
 
 
-<div class="project-excerpt-card" data-style="">
+
+<div class="glide__slide">
+
+<div class="project-excerpt-card" data-style="slide">
   
   <a href="/projects/unet-surrogate-flow-field-fibrous-medium.html" aria-label="An image-based deep learning framework for flow field prediction in arbitrary-sized fibrous microstructures" class="card-image">
     <img src="/images/projects/unet-surrogate-flow-field-fibrous-medium/unet-flow-micro-graphical-abstract.png" alt="An image-based deep learning framework for flow field prediction in arbitrary-sized fibrous microstructures" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -852,16 +862,21 @@ This project proposes a U-Net based framework to predict the flow field within f
   </div>
 </div>
 
-  </li>
+</div>
+
+
   
     
-    <li class="glide__slide">
+
     
 
 
 
 
-<div class="project-excerpt-card" data-style="">
+
+<div class="glide__slide">
+
+<div class="project-excerpt-card" data-style="slide">
   
   <a href="/projects/delft-tapelab.html" aria-label="Delft TapeLab" class="card-image">
     <img src="/images/projects/delft-tapelab/delt-tapelab-illustration.webp" alt="Delft TapeLab" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
@@ -1051,11 +1066,14 @@ The Delft TapeLab is a unique open research facility for unidirectional thermopl
   </div>
 </div>
 
-  </li>
+</div>
+
+
+  
   
 
 
-      </ul>
+      </div>
     </div>
     <div class="glide__arrows" data-glide-el="controls">
       <button class="glide__arrow glide__arrow--left" data-glide-dir="&lt;"><i class="icon fa-solid fa-arrow-left"></i></button>
@@ -1066,16 +1084,16 @@ The Delft TapeLab is a unique open research facility for unidirectional thermopl
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 
 <script>
-  const config = {
+  const glide = new Glide('.glide', {
     type: "carousel",
     perView: 2,
     breakpoints: {
-      600: {
-        perView: 2
-      }
-    }
-  }
-  new Glide('.glide', config).mount()
+      600: { perView: 1 },
+      1200: { perView: 2 }
+    },
+    autoplay: 2000,
+    hoverpause: true
+  }).mount()
 </script>
   </section>
 

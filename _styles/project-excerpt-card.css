@@ -23,6 +23,10 @@
   width: 250px;
 }
 
+.project-excerpt-card[data-style=slide] {
+  height: 100%;
+}
+
 .project-excerpt-card-image img {
   aspect-ratio: 3/2;
   object-fit: cover;
