@@ -39,17 +39,4 @@ At CAMP Lab, our research focuses on sustainable composites and their manufactur
     autoplay: 2000,
     hoverpause: true
   }).mount()
-
-  function equalizeHeights() {
-    const slides = document.querySelectorAll('.glide__slide')
-    let maxHeight = 0
-    slides.forEach(slide => {
-      slide.style.height = 'auto' // reset in case of resize
-      maxHeight = Math.max(maxHeight, slide.offsetHeight)
-    })
-    slides.forEach(slide => slide.style.height = maxHeight + 'px')
-  }
-
-  window.addEventListener('load', equalizeHeights)
-  window.addEventListener('resize', equalizeHeights)
 </script>
