@@ -8,6 +8,7 @@
 
 .project-excerpt-card {
   display: flex;
+  height: 100%;
   flex-direction: column;
   flex: 0 0 560px;
   max-width: calc(100% - 20px - 20px);
