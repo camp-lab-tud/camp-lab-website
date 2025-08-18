@@ -18,7 +18,7 @@ At CAMP Lab, our research focuses on sustainable composites and their manufactur
   <div class="glide">
     <div class="glide__track" data-glide-el="track">
       <div class="glide__slides">
-        {% include project-list.html data="projects" component="project-excerpt" glider=true filter="!end_date"%}
+        {% include project-list.html data="projects" component="project-excerpt" glider=true style="slide" filter="!end_date"%}
       </div>
     </div>
     <div class="glide__arrows" data-glide-el="controls">
