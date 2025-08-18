@@ -31,4 +31,4 @@ Learn more about our research.
 
 ## Past projects
 
-{% include project-list.html data="projects" component="project-excerpt" filter="end_date" style="expand"%}
+{% include project-list.html data="projects" component="project-excerpt" filter="end_date" style="expand" glider=false%}
