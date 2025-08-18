@@ -21,18 +21,9 @@ At CAMP Lab, our research focuses on sustainable composites and their manufactur
         {% include project-list.html data="projects" component="project-excerpt" glider=true style="slide" filter="!end_date"%}
       </div>
     </div>
-    <!-- arrows from https://github.com/glidejs/glidejs.com/blob/master/resources/templates/partials/hero/hero.html -->
-    <div class="slider__arrows" data-glide-el="controls">
-      <button class="slider__arrow slider__arrow--prev glide__arrow glide__arrow--prev" data-ref="fadereveal[el]" data-glide-dir="<">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path d="M0 12l10.975 11 2.848-2.828-6.176-6.176H24v-3.992H7.646l6.176-6.176L10.975 1 0 12z"/>
-        </svg>
-      </button>
-      <button class="slider__arrow slider__arrow--next glide__arrow glide__arrow--next" data-ref="fadereveal[el]" data-glide-dir=">">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-          <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/>
-        </svg>
-      </button>
+    <div class="glide__arrows" data-glide-el="controls">
+      <button class="glide__arrow glide__arrow--left" data-glide-dir="<">{% include icon.html icon="fa-solid fa-arrow-left" %}</button>
+      <button class="glide__arrow glide__arrow--right" data-glide-dir=">">{% include icon.html icon="fa-solid fa-arrow-right" %}</button>
     </div>
   </div>
 </div>
