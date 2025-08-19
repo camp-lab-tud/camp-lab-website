@@ -31,4 +31,4 @@ On this page, you can learn more about our latest research outputs. We are commi
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" filter="date >= '2021-05-01' and ! title.downcase.include?('conference')" %}
+{% include list.html data="citations" component="citation" style="rich" filter="date >= '2021-05-01' and ! title.downcase.include?('conference') and ! title.downcase.include?('proceeding) and ! publisher.downcase.include?('conference') and ! publisher.downcase.include?('proceeding')" %}
