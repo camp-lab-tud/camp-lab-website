@@ -43,6 +43,9 @@ collections:
   # generate page for each member
   members:
     output: true
+  # do not generate page for each external collaborator
+  external_collaborators:
+    output: false
   # generate page for each post
   posts:
     output: true
