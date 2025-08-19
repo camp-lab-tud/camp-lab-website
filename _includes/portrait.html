@@ -14,6 +14,11 @@
     {% if page.slug != member.slug %}
       href="{{ member.url | relative_url | uri_escape }}"
     {% endif %}
+    {% if include.tooltip and member.name and include.show_name == false %}
+      data-tooltip="{{ member.name }} - {{ include.tooltip }}"
+    {% else %}
+      data-tooltip="{{ include.tooltip }}"
+    {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
     aria-label="{{ member.name | default: "member link" | regex_strip }}"
@@ -27,10 +32,10 @@
       class="portrait-image"
       alt="member portrait"
       loading="lazy"
-      {% include fallback.html %}
+      {% include people_fallback.html %}
     >
 
-    {% if member.name %}
+    {% if member.name and include.show_name == true %}
       <span class="portrait-name">
         {{ member.name }}
       </span>

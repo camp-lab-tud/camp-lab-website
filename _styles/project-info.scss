@@ -3,12 +3,19 @@
 
 .project-info {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
   margin: 20px 0;
   color: var(--dark-gray);
+}
+
+.project-people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .project-info .portrait {
