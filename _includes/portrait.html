@@ -14,7 +14,7 @@
     {% if page.slug != member.slug %}
       href="{{ member.url | relative_url | uri_escape }}"
     {% endif %}
-    {% if include.tooltip member.name and include.show_name == false %}
+    {% if include.tooltip and member.name and include.show_name == false %}
       data-tooltip="{{ member.name }} - {{ include.tooltip }}"
     {% else %}
       data-tooltip="{{ include.tooltip }}"
