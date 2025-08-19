@@ -11,9 +11,9 @@ We are a multidisciplinary team at TU Delft led by Prof. Baris Caglar. Our resea
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
-{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
-{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" show_name=true %}
+{% include list.html data="members" component="portrait" filter="role == 'postdoc'" show_name=true %}
+{% include list.html data="members" component="portrait" filter="role == 'phd'" show_name=true %}
 
 {% include section.html background="images/background.png" dark=true %}
 Our mission is to push the boundaries of composite materials and advanced manufacturing. We actively welcome fresh ideas and novel perspectives and are committed to training the next generation of researchers. Learn more about our open positions and available MSc thesis projects.
@@ -23,6 +23,6 @@ Our mission is to push the boundaries of composite materials and advanced manufa
 
 # {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
 
-{% include list.html data="members" component="portrait" filter="role == 'alumni'" style="small"  %}
+{% include list.html data="members" component="portrait" filter="role == 'alumni'" style="small" show_name=true %}
 
 # {% include icon.html icon="fa-solid fa-building-columns" %}Funding
