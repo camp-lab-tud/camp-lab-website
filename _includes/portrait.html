@@ -9,15 +9,13 @@
 
 {% assign type = site.data.types[member.role] %}
 
-<div 
-class="portrait-wrapper" 
-{% if include.tooltip %}
-data-tooltip="{{ include.tooltip }}"
-{% endif %}
->
+<div class="portrait-wrapper">
   <a
     {% if page.slug != member.slug %}
       href="{{ member.url | relative_url | uri_escape }}"
+    {% endif %}
+    {% if include.tooltip %}
+      data-tooltip="{{ include.tooltip }}"
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
