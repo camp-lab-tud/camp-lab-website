@@ -129,13 +129,36 @@
   - frontal polymerization
   - out-of-autoclave
   - sustainability
-- id: isbn:978-2-912985-01-9
-  title: 'ECCM21: 02-05 July 2024, Nantes, France: proceedings of the 21st European
-    Conference on Composite Materials'
-  authors: []
-  publisher: European Society for Composite Materials (ESCM)
-  date: '2024-01-01'
-  link: ''
+- title: An Image-Based Ai Model For Micro-Flow Field Prediction During Resin Transfer
+    Molding
+  publisher: Proceedings of the 21st European Conference on Composite Materials
+  date: '2024-07-13'
+  link: https://research.tudelft.nl/en/publications/9671800d-a19e-47b1-ae3c-896c07be44ea
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Experimental Characterization Of Compaction Behavior Of Roving Based Reinforcements
+  publisher: Proceedings of the 21st European Conference on Composite Materials
+  date: '2024-07-13'
+  link: https://research.tudelft.nl/en/publications/5c9b87f3-5f71-4e4a-9d58-72d19081f587
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Friction Dynamics In Mechanical Bar Spreading For Unidirectional Thin-Ply
+    Carbon Fiber
+  publisher: Proceedings of the 21st European Conference on Composite Materials
+  date: '2024-07-13'
+  link: https://research.tudelft.nl/en/publications/97a3ad1c-b79d-4aec-a437-d5d4a8a465ba
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Microstructural Analysis Of Unidirectional Composites
+  publisher: Proceedings of the 21st European Conference on Composite Materials
+  date: '2024-07-13'
+  link: https://research.tudelft.nl/en/publications/856555e8-f86f-4fe2-9d8d-0bf6603d7ad5
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
@@ -332,13 +355,12 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
-- id: 'isbn:978-2-9701614-0-0 '
-  title: Proceedings of the 20th European Confrence on Composite Materials, ECCM20,
-    26-30 June 2022, EPFL Lausanne, Switzerland
-  authors: []
-  publisher: Composite Construction Laboratory (CCLab)
-  date: '2022-01-01'
-  link: ''
+- title: A new virtual fiber modeling approach to predict the kinematic and mechanical
+    behavior of through-thickness fabric compression
+  publisher: 'Proceedings of the 20th European Conference on Composite Materials:
+    Composites Meet Sustainability'
+  date: '2023-02-11'
+  link: https://research.tudelft.nl/en/publications/bf210724-e6e9-497d-ad56-d77b880d54c3
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
@@ -396,13 +418,29 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
-- id: isbn:978-2-9701614-0-0
-  title: Proceedings of the 20th European Confrence on Composite Materials, ECCM20,
-    26-30 June 2022, EPFL Lausanne, Switzerland
-  authors: []
-  publisher: Composite Construction Laboratory (CCLab)
-  date: '2022-01-01'
-  link: ''
+- title: Deep learning based prediction of fibrous microstructure permeability
+  publisher: 'Proceedings of the 20th European Conference on Composite Materials:
+    Composites Meet Sustainability'
+  date: '2023-11-15'
+  link: https://research.tudelft.nl/en/publications/4e2cdfab-8ec0-4623-a825-59bedf3417de
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Development and characterization of hybrid thin-ply composite materials
+  publisher: 'Proceedings of the 20th European Conference on Composite Materials:
+    Composites Meet Sustainability'
+  date: '2023-02-11'
+  link: https://research.tudelft.nl/en/publications/e4c36aad-dbb6-4e33-8210-9a5a193a380b
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Dual-scale visualization of resin flow for liquid composite molding processes
+  publisher: 'Proceedings of the 20th European Conference on Composite Materials:
+    Composites Meet Sustainability'
+  date: '2023-02-11'
+  link: https://research.tudelft.nl/en/publications/bf4c7299-9c4b-4c2a-934d-8b2f25b9d0c6
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
@@ -437,13 +475,22 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
-- id: isbn:9781605956909
-  title: '37th Technical Conference of the American Society for Composites 2022: Tucson,
-    Arizona, USA, 19-21 September 2022'
-  authors: []
-  publisher: Curran Associates, Inc
-  date: '2022-01-01'
-  link: ''
+- title: Processing of Fibre Reinforced Polymers by Controlled Radical Induced Cationic
+    Frontal Polymerisation
+  publisher: 'Proceedings of the 20th European Conference on Composite Materials:
+    Composites Meet Sustainability'
+  date: '2023-02-11'
+  link: https://research.tudelft.nl/en/publications/a846b380-e498-45c6-af55-cae3900236cd
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Radical Induced Cationic Frontal Polymerization for Rapid Out-of-Autoclave
+    Processing of Carbon Fiber Reinforced Polymers
+  publisher: Proceedings of the American Society for Composites - 37th Technical Conference,
+    ASC 2022
+  date: '2022-10-20'
+  link: https://research.tudelft.nl/en/publications/44dda2b0-13bb-4f2f-99a6-7b7fbaf9bd44
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
@@ -878,12 +925,10 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
-- id: issn:2633366X 09636935
-  title: ''
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://portal.issn.org/resource/ISSN/2633366X 09636935
+- title: Minimizing thickness variation in the vacuum infusion (VI) process
+  publisher: Advanced Composites Letters
+  date: '2022-06-01'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-84862064768&partnerID=MN8TOARS
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
