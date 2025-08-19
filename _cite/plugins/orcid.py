@@ -1,28 +1,7 @@
 import json
 from urllib.request import Request, urlopen
 from util import *
-from manubot.cite.handlers import prefix_to_handler as manubot_prefixes
-
-
-def pick_best_id(ids):
-    """
-    pick the best id from a list of ids returned by the orcid api
-    - prefer doi ids
-    - prefer ids with a "self", "version-of", or "part-of" relationship
-    - return first id if no other ids match
-    - if no ids, return None
-    """
-    for id in ids:
-        if get_safe(id, "external-id-type", "") == "doi":
-            return id
-    for id in ids:
-        if get_safe(id, "external-id-relationship", "") in (
-            "self",
-            "version-of",
-            "part-of",
-        ):
-            return id
-    return ids[0] if ids else None
+from manubot.cite.handlers import prefix_to_handler as manubot_citable
 
 
 def main(entry):
@@ -54,28 +33,67 @@ def main(entry):
     # list of sources to return
     sources = []
 
-    # go through response structure and pull out ids e.g. doi:1234/56789
+    # filter id by some criteria. return true to accept, false to reject.
+    def filter_id(_id):
+        # is id of certain "relationship" type
+        relationships = ["self", "version-of", "part-of"]
+        if not get_safe(_id, "external-id-relationship", "") in relationships:
+            return False
+
+        id_type = get_safe(_id, "external-id-type", "")
+
+        # is id of certain type
+        # types = ["doi"]
+        # if id_type not in types:
+        #     return False
+
+        # is id citable by manubot
+        if id_type not in manubot_citable:
+            return False
+
+        return True
+
+    # prefer some ids over others by some criteria. return lower number to prefer more.
+    def sort_id(_id):
+        id_type = get_safe(_id, "external-id-type", "")
+        types = [
+            "doi",
+            # "arxiv",
+            # "url",
+        ]
+        return index_of(types, id_type)
+
+    # go through each source
     for work in response:
-        # get list of ids
+        # list of ids in source
         ids = []
+
+        # use "work-summary" field instead of top-level "external-ids" to reflect author-selected preferred sources
         for summary in get_safe(work, "work-summary", []):
             ids = ids + get_safe(summary, "external-ids.external-id", [])
 
-        # find first id of particular "relationship" type
-        _id = pick_best_id(ids)
+        # filter ids by criteria
+        ids = list(filter(filter_id, ids))
+        # sort ids by criteria
+        ids.sort(key=sort_id)
 
-        if _id == None:
-            continue
+        # pick first available id
+        _id = ids[0] if len(ids) > 0 else None
 
-        # get id and id-type from response
+        # id parts
         id_type = get_safe(_id, "external-id-type", "")
         id_value = get_safe(_id, "external-id-value", "")
 
         # create source
-        source = {"id": f"{id_type}:{id_value}"}
+        source = {}
 
-        # if not an id type that Manubot can cite, keep citation details
-        if id_type not in manubot_prefixes:
+        # if id citable by manubot
+        if id_type and id_value and id_type in manubot_citable:
+            # id to cite with manubot
+            source = {"id": f"{id_type}:{id_value}"}
+
+        # if not citable by manubot, keep citation details from orcid
+        else:
             # get summaries
             summaries = get_safe(work, "work-summary", [])
 
