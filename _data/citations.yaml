@@ -129,6 +129,40 @@
   - frontal polymerization
   - out-of-autoclave
   - sustainability
+- title: An Image-Based Ai Model For Micro-Flow Field Prediction During Resin Transfer
+    Molding
+  publisher: Proceedings of the 21st European Conference on Composite Materials
+  date: '2024-07-13'
+  link: https://research.tudelft.nl/en/publications/9671800d-a19e-47b1-ae3c-896c07be44ea
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Experimental Characterization Of Compaction Behavior Of Roving Based Reinforcements
+  publisher: Proceedings of the 21st European Conference on Composite Materials
+  date: '2024-07-13'
+  link: https://research.tudelft.nl/en/publications/5c9b87f3-5f71-4e4a-9d58-72d19081f587
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Friction Dynamics In Mechanical Bar Spreading For Unidirectional Thin-Ply
+    Carbon Fiber
+  publisher: Proceedings of the 21st European Conference on Composite Materials
+  date: '2024-07-13'
+  link: https://research.tudelft.nl/en/publications/97a3ad1c-b79d-4aec-a437-d5d4a8a465ba
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Microstructural Analysis Of Unidirectional Composites
+  publisher: Proceedings of the 21st European Conference on Composite Materials
+  date: '2024-07-13'
+  link: https://research.tudelft.nl/en/publications/856555e8-f86f-4fe2-9d8d-0bf6603d7ad5
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/pc.28171
   title: 'Saturated transverse permeability of unidirectional rovings for pultrusion:
     The effect of microstructural evolution through compaction'
@@ -291,6 +325,16 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
+- title: 'Transverse permeability of roving-based fibrous media: Influence of resin
+    rich layers'
+  publisher: Proceedings of the 23rd International Conference on Composite Materials
+    (ICCM23)
+  date: '2024-01-23'
+  link: https://research.tudelft.nl/en/publications/1e5c2ffb-4c29-4eea-ba6b-bf127330422a
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.jclepro.2021.129808
   title: 'A life cycle analysis of novel lightweight composite processes: Reducing
     the environmental footprint of automotive structures'
@@ -307,6 +351,16 @@
   publisher: Journal of Cleaner Production
   date: '2022-01-01'
   link: https://doi.org/gvxm56
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: A new virtual fiber modeling approach to predict the kinematic and mechanical
+    behavior of through-thickness fabric compression
+  publisher: 'Proceedings of the 20th European Conference on Composite Materials:
+    Composites Meet Sustainability'
+  date: '2023-02-11'
+  link: https://research.tudelft.nl/en/publications/bf210724-e6e9-497d-ad56-d77b880d54c3
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
@@ -364,6 +418,43 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
+- title: Deep learning based prediction of fibrous microstructure permeability
+  publisher: 'Proceedings of the 20th European Conference on Composite Materials:
+    Composites Meet Sustainability'
+  date: '2023-11-15'
+  link: https://research.tudelft.nl/en/publications/4e2cdfab-8ec0-4623-a825-59bedf3417de
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Development and characterization of hybrid thin-ply composite materials
+  publisher: 'Proceedings of the 20th European Conference on Composite Materials:
+    Composites Meet Sustainability'
+  date: '2023-02-11'
+  link: https://research.tudelft.nl/en/publications/e4c36aad-dbb6-4e33-8210-9a5a193a380b
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Dual-scale visualization of resin flow for liquid composite molding processes
+  publisher: 'Proceedings of the 20th European Conference on Composite Materials:
+    Composites Meet Sustainability'
+  date: '2023-02-11'
+  link: https://research.tudelft.nl/en/publications/bf4c7299-9c4b-4c2a-934d-8b2f25b9d0c6
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: 'Experimental investigation of tow spreading: Influence of tension, pulling
+    speed and relative rotational speed of spreading bar'
+  publisher: 20th European Conference on Composite Materials, Lausanne, Switzerland,
+    26/06/22
+  date: '2023-02-11'
+  link: https://research.tudelft.nl/en/publications/49d0f714-77f8-47be-9511-e4a098ae8539
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41598-022-09068-1
   title: On the durability of surgical masks after simulated handling and wear
   authors:
@@ -380,6 +471,26 @@
   publisher: Scientific Reports
   date: '2022-03-23'
   link: https://doi.org/g9vg48
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Processing of Fibre Reinforced Polymers by Controlled Radical Induced Cationic
+    Frontal Polymerisation
+  publisher: 'Proceedings of the 20th European Conference on Composite Materials:
+    Composites Meet Sustainability'
+  date: '2023-02-11'
+  link: https://research.tudelft.nl/en/publications/a846b380-e498-45c6-af55-cae3900236cd
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Radical Induced Cationic Frontal Polymerization for Rapid Out-of-Autoclave
+    Processing of Carbon Fiber Reinforced Polymers
+  publisher: Proceedings of the American Society for Composites - 37th Technical Conference,
+    ASC 2022
+  date: '2022-10-20'
+  link: https://research.tudelft.nl/en/publications/44dda2b0-13bb-4f2f-99a6-7b7fbaf9bd44
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
@@ -546,6 +657,24 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
+- title: Improvement of intrusion and crash behaviour of aluminium beams by carbon
+    composite patches
+  publisher: ECCM 2018 - 18th European Conference on Composite Materials
+  date: '2022-06-01'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85084164302&partnerID=MN8TOARS
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: In-plane permeability characterization using an inverse method based on flow
+    front visualization
+  publisher: ECCM 2018 - 18th European Conference on Composite Materials
+  date: '2022-06-01'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85084162487&partnerID=MN8TOARS
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.compositesa.2019.01.023
   title: 3D spacers enhance flow kinetics in resin transfer molding with woven fabrics
   authors:
@@ -586,6 +715,14 @@
   publisher: Composite Structures
   date: '2019-10-01'
   link: https://doi.org/g76t78
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Enhancing permeability of a woven glass-fabric preform with 3D spacers
+  publisher: ECCM 2018 - 18th European Conference on Composite Materials
+  date: '2022-06-01'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85084162716&partnerID=MN8TOARS
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
@@ -715,6 +852,15 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
+- title: Impact recovery of self-healing composites based on a supramolecular polymer
+    matrix
+  publisher: ICCM International Conferences on Composite Materials
+  date: '2022-06-01'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85053139701&partnerID=MN8TOARS
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.compositesa.2017.03.031
   title: Permeability of textile fabrics with spherical inclusions
   authors:
@@ -757,6 +903,15 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
+- title: Experimental investigation of textile permeability in the presence of spherical
+    inclusions
+  publisher: ECCM 2016 - Proceeding of the 17th European Conference on Composite Materials
+  date: '2022-06-01'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85018607722&partnerID=MN8TOARS
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1177/0021998314541305
   title: Modeling of post-filling stage in vacuum infusion using compaction characterization
   authors:
@@ -766,6 +921,14 @@
   publisher: Journal of Composite Materials
   date: '2014-07-03'
   link: https://doi.org/f7jkrh
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Minimizing thickness variation in the vacuum infusion (VI) process
+  publisher: Advanced Composites Letters
+  date: '2022-06-01'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-84862064768&partnerID=MN8TOARS
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
