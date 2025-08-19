@@ -12,14 +12,12 @@
           | where_exp: "member", "member.slug == investigator"
           | first
         %}
-        <span data-tooltip="Investigator">
-          {% if member %}
-            {% include portrait.html lookup=investigator style="tiny" %}
-          {% else %}
-              {% include icon.html icon="fa-solid fa-feather-pointed" %}
-              <span>{{ investigator }}</span>
-          {% endif %}
-        </span> 
+        {% if member %}
+          {% include portrait.html lookup=investigator style="tiny" tooltip="Investigator" %}
+        {% else %}
+            {% include icon.html icon="fa-solid fa-feather-pointed" %}
+            <span data-tooltip="Investigator">{{ investigator }}</span>
+        {% endif %}
       {% endfor %}
   {% endif %}
   {% if include.supervisors %}
@@ -34,14 +32,12 @@
         | where_exp: "member", "member.slug == supervisor"
         | first
       %}
-      <span data-tooltip="Supervisor">
-        {% if member %}
-          {% include portrait.html lookup=supervisor style="tiny" %}
-        {% else %}
-            {% include icon.html icon="fa-solid fa-feather-pointed" %}
-            <span>{{ supervisor }}</span>
-        {% endif %}
-      </span>
+      {% if member %}
+        {% include portrait.html lookup=supervisor style="tiny" tooltip="Supervisor" %}
+      {% else %}
+          {% include icon.html icon="fa-solid fa-feather-pointed" %}
+          <span data-tooltip="Supervisor">{{ supervisor }}</span>
+      {% endif %}
     {% endfor %}
   {% endif %}
   </div>
@@ -60,14 +56,14 @@
         | where_exp: "external_collaborator", "external_collaborator.slug == collaborator"
         | first
       %}
-      <span data-tooltip="With">
+      <span data-tooltip="External collaborator">
         {% include icon.html icon="fa-regular fa-handshake" %}
         {% if external_collaborator %}
           <a href="{{ external_collaborator.links.home-page }}">
             {{ external_collaborator.name }}
           </a>
         {% else %}
-            <span>{{ collaborator }}</span>
+            {{ collaborator }}
         {% endif %}
       </span>
     {% endfor %}
