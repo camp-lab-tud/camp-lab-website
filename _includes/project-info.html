@@ -13,7 +13,7 @@
           | first
         %}
         {% if member %}
-          {% include portrait.html lookup=investigator style="tiny" tooltip="Investigator" %}
+          {% include portrait.html lookup=investigator style="tiny" tooltip="Investigator" show_name=include.show_name %}
         {% else %}
             {% include icon.html icon="fa-solid fa-feather-pointed" %}
             <span data-tooltip="Investigator">{{ investigator }}</span>
@@ -33,7 +33,7 @@
         | first
       %}
       {% if member %}
-        {% include portrait.html lookup=supervisor style="tiny" tooltip="Supervisor" %}
+        {% include portrait.html lookup=supervisor style="tiny" tooltip="Supervisor" show_name=include.show_name %}
       {% else %}
           {% include icon.html icon="fa-solid fa-feather-pointed" %}
           <span data-tooltip="Supervisor">{{ supervisor }}</span>
