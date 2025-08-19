@@ -31,7 +31,7 @@ At CAMP Lab, our research focuses on sustainable composites and their manufactur
 <script>
   const glide = new Glide('.glide', {
     type: "carousel",
-    perView: 3,
+    perView: 2,
     breakpoints: {
       600: { perView: 1 },
       1200: { perView: 2 }
