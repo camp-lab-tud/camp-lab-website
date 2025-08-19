@@ -129,6 +129,17 @@
   - frontal polymerization
   - out-of-autoclave
   - sustainability
+- id: isbn:978-2-912985-01-9
+  title: 'ECCM21: 02-05 July 2024, Nantes, France: proceedings of the 21st European
+    Conference on Composite Materials'
+  authors: []
+  publisher: European Society for Composite Materials (ESCM)
+  date: '2024-01-01'
+  link: ''
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/pc.28171
   title: 'Saturated transverse permeability of unidirectional rovings for pultrusion:
     The effect of microstructural evolution through compaction'
@@ -291,6 +302,16 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
+- title: 'Transverse permeability of roving-based fibrous media: Influence of resin
+    rich layers'
+  publisher: Proceedings of the 23rd International Conference on Composite Materials
+    (ICCM23)
+  date: '2024-01-23'
+  link: https://research.tudelft.nl/en/publications/1e5c2ffb-4c29-4eea-ba6b-bf127330422a
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.jclepro.2021.129808
   title: 'A life cycle analysis of novel lightweight composite processes: Reducing
     the environmental footprint of automotive structures'
@@ -307,6 +328,17 @@
   publisher: Journal of Cleaner Production
   date: '2022-01-01'
   link: https://doi.org/gvxm56
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: 'isbn:978-2-9701614-0-0 '
+  title: Proceedings of the 20th European Confrence on Composite Materials, ECCM20,
+    26-30 June 2022, EPFL Lausanne, Switzerland
+  authors: []
+  publisher: Composite Construction Laboratory (CCLab)
+  date: '2022-01-01'
+  link: ''
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
@@ -364,6 +396,27 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
+- id: isbn:978-2-9701614-0-0
+  title: Proceedings of the 20th European Confrence on Composite Materials, ECCM20,
+    26-30 June 2022, EPFL Lausanne, Switzerland
+  authors: []
+  publisher: Composite Construction Laboratory (CCLab)
+  date: '2022-01-01'
+  link: ''
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: 'Experimental investigation of tow spreading: Influence of tension, pulling
+    speed and relative rotational speed of spreading bar'
+  publisher: 20th European Conference on Composite Materials, Lausanne, Switzerland,
+    26/06/22
+  date: '2023-02-11'
+  link: https://research.tudelft.nl/en/publications/49d0f714-77f8-47be-9511-e4a098ae8539
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41598-022-09068-1
   title: On the durability of surgical masks after simulated handling and wear
   authors:
@@ -380,6 +433,17 @@
   publisher: Scientific Reports
   date: '2022-03-23'
   link: https://doi.org/g9vg48
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: isbn:9781605956909
+  title: '37th Technical Conference of the American Society for Composites 2022: Tucson,
+    Arizona, USA, 19-21 September 2022'
+  authors: []
+  publisher: Curran Associates, Inc
+  date: '2022-01-01'
+  link: ''
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
@@ -546,6 +610,24 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
+- title: Improvement of intrusion and crash behaviour of aluminium beams by carbon
+    composite patches
+  publisher: ECCM 2018 - 18th European Conference on Composite Materials
+  date: '2022-06-01'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85084164302&partnerID=MN8TOARS
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: In-plane permeability characterization using an inverse method based on flow
+    front visualization
+  publisher: ECCM 2018 - 18th European Conference on Composite Materials
+  date: '2022-06-01'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85084162487&partnerID=MN8TOARS
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.compositesa.2019.01.023
   title: 3D spacers enhance flow kinetics in resin transfer molding with woven fabrics
   authors:
@@ -586,6 +668,14 @@
   publisher: Composite Structures
   date: '2019-10-01'
   link: https://doi.org/g76t78
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Enhancing permeability of a woven glass-fabric preform with 3D spacers
+  publisher: ECCM 2018 - 18th European Conference on Composite Materials
+  date: '2022-06-01'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85084162716&partnerID=MN8TOARS
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
@@ -715,6 +805,15 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
+- title: Impact recovery of self-healing composites based on a supramolecular polymer
+    matrix
+  publisher: ICCM International Conferences on Composite Materials
+  date: '2022-06-01'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85053139701&partnerID=MN8TOARS
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.compositesa.2017.03.031
   title: Permeability of textile fabrics with spherical inclusions
   authors:
@@ -757,6 +856,15 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
+- title: Experimental investigation of textile permeability in the presence of spherical
+    inclusions
+  publisher: ECCM 2016 - Proceeding of the 17th European Conference on Composite Materials
+  date: '2022-06-01'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85018607722&partnerID=MN8TOARS
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1177/0021998314541305
   title: Modeling of post-filling stage in vacuum infusion using compaction characterization
   authors:
@@ -766,6 +874,16 @@
   publisher: Journal of Composite Materials
   date: '2014-07-03'
   link: https://doi.org/f7jkrh
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: issn:2633366X 09636935
+  title: ''
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://portal.issn.org/resource/ISSN/2633366X 09636935
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
