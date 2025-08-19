@@ -41,9 +41,7 @@
     {% endfor %}
   {% endif %}
   </div>
-</div>
-{% if include.collaborators %}
-  <div class="project-info">
+  {% if include.collaborators %}
     <div class="project-people">
     {% assign collaborators = include.collaborators
       | join: ","
@@ -68,9 +66,7 @@
       </span>
     {% endfor %}
     </div>
-  </div>
-{% endif %}
-<div class="project-info">
+  {% endif %}
   {% assign start_date = include.start_date | date: "%Y" %}
   {% assign end_date = include.end_date | date: "%Y" %}
   {% assign website = include.link | relative_url | uri_escape %}
