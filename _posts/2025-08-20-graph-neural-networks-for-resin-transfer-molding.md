@@ -2,6 +2,7 @@
 title: ICCM24 - Graph neural networks for resin transfer molding modeling
 image: images/news/2025-08-20-graph-neural-networks-for-resin-transfer-molding/jimmy-iccm.jpeg
 author: jimmy-jean, guillaume-broggi, baris-caglar
+last_modified_at: ""
 tags:
   - composites
   - resin transfer molding

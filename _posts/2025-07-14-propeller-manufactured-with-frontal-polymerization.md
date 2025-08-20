@@ -2,6 +2,7 @@
 title: A propeller cured by frontal polymerization
 image: images/news/2025-07-14-propeller-manufactured-with-frontal-polymerization/propeller-overview.jpg
 author: clement-broggi, baris-caglar
+last_modified_at: 2025-07-30
 tags:
   - composites
   - frontal polymerization

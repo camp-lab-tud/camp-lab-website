@@ -2,6 +2,7 @@
 title: Inauguration of Delft TapeLab
 image: images/news/2025-02-06-delft-tapelab-inauguration/tapelab-overview.jpg
 author: onur-yuksel, oguz-eryilmaz, baris-caglar
+last_modified_at: 2025-07-30
 tags:
   - composites
   - manufacturing
