@@ -1,12 +1,12 @@
 ---
 title: "CAELESTIS: hyperconnected simulation ecosystem supporting probabilistic design and predictive manufacturing of next generation aircraft structures"
 image: images/projects/caelestis/caelestis-logo.png
-investigators: guillaume-broggi, ivan-cozar.md
+investigators: guillaume-broggi, ivan-cozar
 supervisors: 
 collaborators: miguel-bessa
 start_date: 2022-10-01
 end_date:
-link:
+link: https://caelestis-project.eu/
 tags:
   - composites
   - manufacturing
