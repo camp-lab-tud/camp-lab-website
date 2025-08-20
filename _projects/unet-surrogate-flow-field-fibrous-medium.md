@@ -3,8 +3,10 @@ title: An image-based deep learning framework for flow field prediction in arbit
 image: images/projects/unet-surrogate-flow-field-fibrous-medium/unet-flow-micro-graphical-abstract.png
 investigators: jimmy-jean
 supervisors: guillaume-broggi
+collaborators:
 start_date: 2023-07-01
 end_date:
+link:
 tags:
   - composites
   - computational fluid dynamics
