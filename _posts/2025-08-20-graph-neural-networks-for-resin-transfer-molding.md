@@ -16,4 +16,9 @@ An extensive journal paper on the subject will be published in the coming months
 
 We thank [Polyworx B.V.](https://www.polyworx.com/) for access to their flow simulation software.
 
-Well done Jimmy!
+{%
+  include figure.html
+  image="images/news/2025-08-20-graph-neural-networks-for-resin-transfer-molding/jimmy-iccm.jpeg"
+  caption="Well done Jimmy!"
+  width="800px"
+%}
