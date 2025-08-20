@@ -44,7 +44,7 @@ A novel in-situ methodology to reduce the variability of fiber impregnation duri
 {%
   include float.html
   content=content
-  flip=true
+  flip=false
 %}
 
 Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or European Climate, Infrastructure and Environment Executive Agency (CINEA). Neither the European Union nor the granting authority can be held responsible for them.
