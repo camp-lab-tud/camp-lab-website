@@ -2,8 +2,11 @@
 title: Optimization of the mechanical performance of recycled polymers
 image: images/projects/recycled-polymers-optimization/recycled-polymers-graphical-abstract.svg
 investigators: ivan-cozar
+supervisors:
+collaborators: miguel-bessa
 start_date: 2024-07-01
 end_date:
+link:
 tags:
   - composites
   - finite element modeling
