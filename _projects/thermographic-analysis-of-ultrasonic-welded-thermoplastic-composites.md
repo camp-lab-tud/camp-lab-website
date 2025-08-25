@@ -10,6 +10,7 @@ link:
 tags:
   - composites
   - manufacturing
+  - thermoplastic
   - ultrasonic welding
 ---
 
