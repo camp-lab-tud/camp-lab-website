@@ -26,6 +26,3 @@ The aim of this research is to use graph neural networks in a MeshGraphNet-based
   caption="Graphical abstract."
   width="800px"
 %}
-
-
-
