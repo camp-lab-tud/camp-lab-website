@@ -10,6 +10,7 @@ link:
 tags:
   - composites
   - manufacturing
+  - finite element modeling
   - curing
   - graph neural network
 ---
