@@ -21,7 +21,7 @@
 
   {% for d in data %}
     {% assign style = d.style | default: include.style %}
-    {% assign show_name = include.style %}
+    {% assign show_name = include.show_name | default: true %}
 
     {%
       include {{ include.component | append: ".html" }}
