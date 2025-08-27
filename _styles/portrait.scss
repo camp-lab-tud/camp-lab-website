@@ -28,7 +28,7 @@
   text-align: left;
 }
 
-.portrait .icon {
+.portrait .portrait-visual .icon {
   position: absolute;
   left: 0;
   top: 0;
@@ -43,12 +43,12 @@
   transform: translate(14%, 14%);
 }
 
-.portrait[data-style="small"] .icon {
+.portrait[data-style="small"] .portrait-visual .icon {
   left: -2px;
   top: -2px;
 }
 
-.portrait[data-style="tiny"] .icon {
+.portrait[data-style="tiny"] .portrait-visual .icon {
   display: none;
 }
 

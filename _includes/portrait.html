@@ -24,6 +24,7 @@
       {% if page.slug != member.slug %}
         href="{{ member.url | relative_url | uri_escape }}"
       {% endif %}
+      class="portrait-visual"
     >  
     {% if type %}
       {% include icon.html icon=type.icon %}
@@ -43,13 +44,13 @@
         {{ member.name }}
       </span>
     {% endif %}
-
+  </a>    
     {% if member.description or type %}
       <span class="portrait-description">
         {{ member.description | default: type.description }}
       </span>
     {% endif %}
-  </a>
+  
   {% if member.cosupervisors %}
       <span class="portrait-cosupervision">
         {% include icon.html icon="fa-regular fa-handshake" %}
