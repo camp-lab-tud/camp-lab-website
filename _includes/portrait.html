@@ -40,17 +40,38 @@
         {{ member.name }}
       </span>
     {% endif %}
+  </a>
 
-    {% if member.description or type %}
+  {% if member.cosupervisors %}
+      <span class="portrait-cosupervision">
+        {% include icon.html icon="fa-regular fa-handshake" %}
+        {% for cosupervisor in member.cosupervisors %}
+          {% assign external_collaborator = site.external_collaborators
+            | where_exp: "external_collaborator", "external_collaborator.slug == cosupervisor"
+            | first
+          %}
+          {% if external_collaborator %}
+            <a href="{{ external_collaborator.links.home-page }}">
+              {{ external_collaborator.name }}
+            </a>
+          {% else %}
+              {{ cosupervisor }}
+          {% endif %}
+        {% endfor %}
+      </span>
+    {% endif %}
+
+    <!-- {% if member.description or type %}
       <span class="portrait-description">
         {{ member.description | default: type.description }}
       </span>
-    {% endif %}
+    {% endif %} -->
 
-    {% if member.affiliation %}
+    <!-- {% if member.affiliation %}
       <span class="portrait-affiliation">
         {{ member.affiliation }}
       </span>
-    {% endif %}
-  </a>
+    {% endif %} -->
+   
+  
 </div>

@@ -2,6 +2,7 @@
 name: Shantha Kilambi
 image: images/team/shanta-kilambi.jpg
 role: phd
+cosupervisors: kunal-masania
 aliases:
   - S. Kilambi
   - S Kilambi
