@@ -10,10 +10,7 @@
 {% assign type = site.data.types[member.role] %}
 
 <div class="portrait-wrapper">
-  <a
-    {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url | uri_escape }}"
-    {% endif %}
+  <div
     {% if include.tooltip and member.name and include.show_name == false %}
       data-tooltip="{{ member.name }} - {{ include.tooltip }}"
     {% else %}
@@ -23,9 +20,14 @@
     data-style="{{ include.style }}"
     aria-label="{{ member.name | default: "member link" | regex_strip }}"
   >
+    <a {
+      % if page.slug != member.slug %}
+        href="{{ member.url | relative_url | uri_escape }}"
+      {% endif %}
     {% if type %}
       {% include icon.html icon=type.icon %}
     {% endif %}
+    >
 
     <img
       src="{{ member.image | relative_url | uri_escape }}"
@@ -46,7 +48,7 @@
         {{ member.description | default: type.description }}
       </span>
     {% endif %}
-
+  </a>
   {% if member.cosupervisors %}
       <span class="portrait-cosupervision">
         {% include icon.html icon="fa-regular fa-handshake" %}
@@ -73,6 +75,6 @@
         {{ member.affiliation }}
       </span>
     {% endif %} -->
-  </a> 
+    </div> 
   
 </div>
