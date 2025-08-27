@@ -2,7 +2,7 @@
 name: Dimitrios Apostolidis
 image:
 role: phd
-cosupervisors: clemens-dransfled, baris-kumru
+cosupervisors: clemens-dransfeld, baris-kumru
 aliases:
   - Dimitris Apostolidis
   - D. Apostolidis
