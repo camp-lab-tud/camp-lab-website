@@ -21,6 +21,7 @@
 
   {% for d in data %}
     {% assign style = d.style | default: include.style %}
+    {% assign show_name = include.show_name | default: true %}
 
     {%
       include {{ include.component | append: ".html" }}
@@ -30,6 +31,7 @@
       buttons=d.buttons
       caption=d.caption
       content=d.content
+      cosupervisors=d.cosupervisors
       date=d.date
       description=d.description
       excerpt=d.excerpt
@@ -44,6 +46,7 @@
       publisher=d.publisher
       repo=d.repo
       role=d.role
+      show_name=show_name
       slug=d.slug
       style=style
       subtitle=d.subtitle
