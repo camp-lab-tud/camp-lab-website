@@ -10,6 +10,6 @@ aliases:
 links:
   # home-page: 
   google-scholar: JcsXeTEAAAAJ
-  # orcid:
+  orcid: 0009-0007-6575-1285
   linkedin: riccardo-biella
 ---
