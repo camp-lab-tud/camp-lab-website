@@ -888,7 +888,7 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
-- id: 10.1021/acsomega.5c05746
+- id: doi:10.1021/acsomega.5c05746
   title: 3D-Printed Microfiltration Membranes via Dual-Wavelength Microstereolithography
   authors:
   - Hanieh Bazyar
