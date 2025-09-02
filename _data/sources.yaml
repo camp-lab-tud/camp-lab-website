@@ -5,7 +5,7 @@
 
 - id: 10.1021/acsomega.5c05746
   type: paper
-  image: https://pubs.acs.org/cms/10.1021/acsomega.5c05746/asset/images/medium/ao5c05746_0005.gif
+  image: https://pubs.acs.org/cms/10.1021/acsomega.5c05746/asset/images/medium/ao5c05746_0018.gif
   description: This work proposes a methodology to manufacture 3D-printed hydrophilic microfiltration membranes with ≈10 µm cylindrical pores dual-wavelength microstereolithography and PEGDA resin. Membranes were characterized (SEM, FTIR, contact angle, roughness), showed comparable permeability to commercial PTFE membranes, and effectively separated oil-in-water emulsions. The membrane permeability was analyzed via a 1D tube model and numerical modeling, revealing effects of material swelling and pore deformation, offering guidance for design optimization.
   tags:
   - computational fluid dynamics
