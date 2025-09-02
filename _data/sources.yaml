@@ -1,6 +1,8 @@
 # Provide additional metadata for resources fetched from ORCID (use same id as the one
 # automatically generated in citations.yaml), etc. or use to add manual entries
 
+# Peer-reviewed papers
+
 - id: doi:10.1016/j.compscitech.2024.110584
   type: paper
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0266353824001544-ga1_lrg.jpg
@@ -34,3 +36,5 @@
   - manufacturing
   - impregnation
   - experimental characterization
+
+# PhD thesis
