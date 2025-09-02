@@ -888,3 +888,32 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
+- id: 10.1021/acsomega.5c05746
+  title: 3D-Printed Microfiltration Membranes via Dual-Wavelength Microstereolithography
+  authors:
+  - Hanieh Bazyar
+  - Shang-Che Wu
+  - Irem Gurbuz
+  - Athanasios Papageorgiou
+  - Wesley van Vliet
+  - Alexander Kostenko
+  - Jimmy G. Jean
+  - Guillaume Broggi
+  - Baris Caglar
+  publisher: ACS Omega
+  date: '2025-08-21'
+  link: https://doi.org/g9z8ms
+  type: paper
+  image: https://pubs.acs.org/cms/10.1021/acsomega.5c05746/asset/images/medium/ao5c05746_0018.gif
+  description: "This work proposes a methodology to manufacture 3D-printed hydrophilic\
+    \ microfiltration membranes with \u224810 \xB5m cylindrical pores dual-wavelength\
+    \ microstereolithography and PEGDA resin. Membranes were characterized (SEM, FTIR,\
+    \ contact angle, roughness), showed comparable permeability to commercial PTFE\
+    \ membranes, and effectively separated oil-in-water emulsions. The membrane permeability\
+    \ was analyzed via a 1D tube model and numerical modeling, revealing effects of\
+    \ material swelling and pore deformation, offering guidance for design optimization."
+  tags:
+  - computational fluid dynamics
+  - microfluidics
+  plugin: sources.py
+  file: sources.yaml
