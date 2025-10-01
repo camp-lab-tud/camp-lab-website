@@ -1,4 +1,7 @@
---- --- .portrait-wrapper {
+---
+---
+
+.portrait-wrapper {
   display: contents;
 }
 
@@ -25,8 +28,9 @@
   text-align: left;
 }
 
-.portrait[data-style="tiny"] .portrait-image {
-  display: block;
+.portrait[data-style="tiny"] .portrait-visual {
+  display: inline-flex;
+  align-items: center; // vertical centering of image + name
 }
 
 .portrait .portrait-visual .icon {
@@ -73,7 +77,6 @@
 }
 
 .portrait[data-style="tiny"] {
-
   .portrait-description,
   .portrait-affiliation,
   .portrait-cosupervision {
