@@ -31,6 +31,7 @@
 .portrait[data-style="tiny"] .portrait-visual {
   display: inline-flex;
   align-items: center; // vertical centering of image + name
+  gap: 15px;
 }
 
 .portrait .portrait-visual .icon {
