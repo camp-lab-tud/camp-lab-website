@@ -27,6 +27,7 @@
 .portrait[data-style=tiny] .portrait-visual {
   display: inline-flex;
   align-items: center;
+  gap: 15px;
 }
 
 .portrait .portrait-visual .icon {
