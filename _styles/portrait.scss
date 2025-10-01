@@ -1,7 +1,4 @@
----
----
-
-.portrait-wrapper {
+--- --- .portrait-wrapper {
   display: contents;
 }
 
@@ -26,6 +23,10 @@
   gap: 15px;
   width: unset;
   text-align: left;
+}
+
+.portrait[data-style="tiny"] .portrait-image {
+  display: block;
 }
 
 .portrait .portrait-visual .icon {
@@ -72,6 +73,7 @@
 }
 
 .portrait[data-style="tiny"] {
+
   .portrait-description,
   .portrait-affiliation,
   .portrait-cosupervision {
