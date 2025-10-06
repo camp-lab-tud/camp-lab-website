@@ -16,6 +16,8 @@ Please check back for future openings.
 
 ## BSc and MSc theses
 
+We offer **Bachelor thesis (BSc)** and  **Master thesis (MSc)** opportunities in Aerospace Engineering with a focus aerospace materials and structures. Our projects combine experimental testing, advanced modeling, and data-driven approaches to address challenges **composite materials** and **manufacturing**. Whether you are interested in machine learning for permeability prediction or sustainable thermoplastic composite manufacturing, you can find a list of available topics below.
+
 - [ Machine learning-based flow predictions in 2D mesostructures and 3D microstructures](https://surfdrive.surf.nl/index.php/s/FDT3JY8N97GqTnQ) with [Jimmy Jean](../members/jimmy-jean).
 
 Interested in joining our group but cannot find your dream subject above? 
