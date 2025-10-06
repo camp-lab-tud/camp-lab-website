@@ -23,4 +23,8 @@ Contact [Prof. Baris Caglar](../members/baris-caglar) with:
 - A short paragraph discussing your topics of interest and your motivation.  
 - A curriculum vitae with your academic records.
 
-Please, note that generic emails will not be considered.
+{%
+  include alert.html
+  type="info"
+  content="Please, note that generic emails will not be considered."
+%}
