@@ -25,6 +25,6 @@ Contact [Prof. Baris Caglar](../members/baris-caglar) with:
 
 {%
   include alert.html
-  type="info"
-  content="Please, note that generic emails will not be considered."
+  type="warning"
+  content="Note that generic emails will not be considered."
 %}
