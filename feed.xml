@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://camp-lab.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://camp-lab.org/" rel="alternate" type="text/html" /><updated>2025-10-06T10:05:09+00:00</updated><id>https://camp-lab.org/feed.xml</id><title type="html">CAMP Lab at TU Delft</title><subtitle>The CAMP Lab is a research group at TU Delft focusing on advanced materials processing and composite structures.</subtitle><entry><title type="html">AIComp25</title><link href="https://camp-lab.org/2025/09/05/aicomp25.html" rel="alternate" type="text/html" title="AIComp25" /><published>2025-09-05T00:00:00+00:00</published><updated>2025-10-06T00:00:00+00:00</updated><id>https://camp-lab.org/2025/09/05/aicomp25</id><content type="html" xml:base="https://camp-lab.org/2025/09/05/aicomp25.html"><![CDATA[<!-- excerpt start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://camp-lab.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://camp-lab.org/" rel="alternate" type="text/html" /><updated>2025-10-06T11:44:02+00:00</updated><id>https://camp-lab.org/feed.xml</id><title type="html">CAMP Lab at TU Delft</title><subtitle>The CAMP Lab is a research group at TU Delft focusing on advanced materials processing and composite structures.</subtitle><entry><title type="html">AIComp25</title><link href="https://camp-lab.org/2025/09/05/aicomp25.html" rel="alternate" type="text/html" title="AIComp25" /><published>2025-09-05T00:00:00+00:00</published><updated>2025-10-06T00:00:00+00:00</updated><id>https://camp-lab.org/2025/09/05/aicomp25</id><content type="html" xml:base="https://camp-lab.org/2025/09/05/aicomp25.html"><![CDATA[<!-- excerpt start -->
 <p>Our group was excited to attend the first <a href="https://composites-ai.org/">AIComp 2025</a> in Bristol.
 <!-- excerpt end --></p>
 
@@ -13,7 +13,7 @@
   
   <i class="icon fa-solid fa-circle-info"></i>
   <div class="alert-content">
-    <p>Download the flow modeling and cure modeling presentations from <a href="https://surfdrive.surf.nl/index.php/s/NxThgzaeJ5DXnw1">SurfDrive</a>.</p>
+    <p>Access the presentations: <a href="https://surfdrive.surf.nl/index.php/s/BkF88qJO2fxKwvR">Image-based AI Model for Prediction of Microflow in Processing of Composites</a> and <a href="https://surfdrive.surf.nl/index.php/s/oRMjmGp3naJTpnJ">Bake it till make it! Modelling composite curing with graph neural networks</a>.</p>
 
   </div>
 </div>
