@@ -1,7 +1,7 @@
 ---
 name: Onur Yüksel
 image: images/team/onur-yuksel.webp
-role: postdoc
+role: alumni
 aliases:
   - O. Yuksel
   - O Yuksel
