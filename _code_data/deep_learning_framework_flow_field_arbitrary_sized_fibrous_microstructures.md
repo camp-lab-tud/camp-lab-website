@@ -4,7 +4,7 @@ image: images/projects/unet-surrogate-flow-field-fibrous-medium/unet-flow-micro-
 investigators: jimmy-jean
 supervisors: guillaume-broggi
 collaborators:
-start_date: 2023-07-01
+start_date:
 end_date:
 link:
 tags:
@@ -15,8 +15,10 @@ tags:
 ---
 
 <!-- excerpt start -->
-This project proposes a U-Net based framework to predict the flow field within fibrous medium. The output of this research was accepted as a paper in [Composites Part A](https://doi.org/10.1016/j.compositesa.2025.109337).
+This project proposes a U-Net based framework to predict the flow field within fibrous medium.
 <!-- excerpt end -->
+
+ A paper was submitted for publication.
 
 {%
   include figure.html

@@ -38,6 +38,11 @@ defaults:
       type: "projects"
     values:
       layout: project
+  # markdown files in /_code_data
+  - scope:
+      type: "code_data"
+    values:
+      layout: project
 
 collections:
   # generate page for each member
@@ -52,6 +57,9 @@ collections:
   # generate page for each project
   projects:
     output: true
+  # generate page for each code and data entry
+  code_data:
+    output: true  
 
 # jekyll plugins
 plugins:
