@@ -5,7 +5,7 @@ investigators: jimmy-jean
 supervisors: guillaume-broggi
 collaborators:
 start_date: 2023-07-01
-end_date:
+end_date: 2025-10-31
 link:
 tags:
   - composites
@@ -15,10 +15,8 @@ tags:
 ---
 
 <!-- excerpt start -->
-This project proposes a U-Net based framework to predict the flow field within fibrous medium.
+This project proposes a U-Net based framework to predict the flow field within fibrous medium. The output of this research was accepted as a paper in [Composites Part A](https://doi.org/10.1016/j.compositesa.2025.109337).
 <!-- excerpt end -->
-
- A paper was submitted for publication.
 
 {%
   include figure.html
