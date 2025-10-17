@@ -5,7 +5,7 @@ investigators: jimmy-jean
 supervisors: guillaume-broggi
 collaborators:
 start_date: 2023-07-01
-end_date:
+end_date: 2025-10-31
 link:
 tags:
   - composites
