@@ -1,24 +1,15 @@
 ---
 title: An image-based deep learning framework for flow field prediction in arbitrary-sized fibrous microstructures
-image: images/projects/unet-surrogate-flow-field-fibrous-medium/unet-flow-micro-graphical-abstract.png
+image: https://ars.els-cdn.com/content/image/1-s2.0-S1359835X25006311-gr2_lrg.jpg
 group: featured
-link:
+link: https://doi.org/10.5281/zenodo.16940477
+description: This dataset includes steady-state flow simulations for 5250 (periodic) 2D fibrous microstructures that are representative of those encountered in the manufacturing processes (e.g., resin transfer molding) of fiber-reinforced polymer composite (FRPC).
 tags:
   - composites
   - computational fluid dynamics
-  - machine learning
-  - surrogate
+  - dataset
 ---
 
 <!-- excerpt start -->
-This project proposes a U-Net based framework to predict the flow field within fibrous medium.
+
 <!-- excerpt end -->
-
- A paper was submitted for publication.
-
-{%
-  include figure.html
-  image="images/projects/unet-surrogate-flow-field-fibrous-medium/unet-flow-micro-graphical-abstract.png"
-  caption="Graphical abstract."
-  width="800px"
-%}
