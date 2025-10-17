@@ -1,5 +1,37 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.compositesa.2025.109337
+  title: An image-based deep learning framework for flow field prediction in arbitrary-sized
+    fibrous microstructures
+  authors:
+  - Jimmy Gaspard Jean
+  - Guillaume Broggi
+  - Baris Caglar
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2025-10-01'
+  link: https://doi.org/g966nn
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  group: featured
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S1359835X25006311-ga1_lrg.jpg
+  description: "We introduce an image-based surrogate framework to estimate velocity\
+    \ and pressure fields in unidirectional composite microstructures of arbitrary\
+    \ size, and then derive permeability from those fields. The models deliver \u2248\
+    5% error on training data and \u22488% on unseen microstructures; inferred permeabilities\
+    \ deviate by only \u22484% (train) and \u22486% (validation). A physics-based\
+    \ sliding-window procedure extends predictions to microstructures with varying\
+    \ aspect ratios. Validated against high-fidelity simulations and CT scans of samples,\
+    \ the approach offers a scalable, computationally efficient alternative to costly\
+    \ numerical solvers. The code and trained models are [openly available to the\
+    \ community](code-and-data)."
+  tags:
+  - composites
+  - machine learning
+  - manufacturing
+  - permeability
 - id: doi:10.1021/acsomega.5c05746
   title: 3D-Printed Microfiltration Membranes via Dual-Wavelength Microstereolithography
   authors:
