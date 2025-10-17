@@ -3,6 +3,17 @@
 
 # Peer-reviewed papers
 
+- id: doi:10.1016/j.compositesa.2025.109337
+  type: paper
+  group: featured
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S1359835X25006311-ga1_lrg.jpg
+  description: We introduce an image-based surrogate framework to estimate velocity and pressure fields in unidirectional composite microstructures of arbitrary size, and then derive permeability from those fields. The models deliver ≈5% error on training data and ≈8% on unseen microstructures; inferred permeabilities deviate by only ≈4% (train) and ≈6% (validation). A physics-based sliding-window procedure extends predictions to microstructures with varying aspect ratios. Validated against high-fidelity simulations and CT scans of samples, the approach offers a scalable, computationally efficient alternative to costly numerical solvers. The code and trained models are [openly available to the community](code-and-data).
+  tags:
+  - composites
+  - machine learning
+  - manufacturing
+  - permeability
+
 - id: doi:10.1021/acsomega.5c05746
   type: paper
   image: https://pubs.acs.org/cms/10.1021/acsomega.5c05746/asset/images/medium/ao5c05746_0018.gif
