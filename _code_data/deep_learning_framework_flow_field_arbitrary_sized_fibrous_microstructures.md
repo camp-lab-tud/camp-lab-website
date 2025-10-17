@@ -1,11 +1,7 @@
 ---
 title: An image-based deep learning framework for flow field prediction in arbitrary-sized fibrous microstructures
 image: images/projects/unet-surrogate-flow-field-fibrous-medium/unet-flow-micro-graphical-abstract.png
-investigators: jimmy-jean
-supervisors: guillaume-broggi
-collaborators:
-start_date:
-end_date:
+group: featured
 link:
 tags:
   - composites

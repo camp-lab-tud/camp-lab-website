@@ -11,11 +11,11 @@ Explore our published open-source code and datasets.
 
 ## Featured
 
-{% include list.html data="code_data" component="project-excerpt" filter="group == 'featured'" %}
+{% include list.html data="code_data" component="card" filter="group == 'featured'" %}
 
 {% include section.html %}
 
-## All
+## More
 
 {% include search-box.html %}
 
@@ -31,5 +31,5 @@ Explore our published open-source code and datasets.
 
 {% include section.html %}
 
-{% include list.html data="code_data" component="project-excerpt" %}
+{% include list.html data="code_data" component="card" filter="group != 'featured'" %}
 
