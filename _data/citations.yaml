@@ -26,7 +26,7 @@
     \ aspect ratios. Validated against high-fidelity simulations and CT scans of samples,\
     \ the approach offers a scalable, computationally efficient alternative to costly\
     \ numerical solvers. The code and trained models are [openly available to the\
-    \ community](code-and-data)."
+    \ community](/code-and-data)."
   tags:
   - composites
   - machine learning
