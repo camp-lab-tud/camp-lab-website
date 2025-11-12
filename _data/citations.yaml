@@ -32,6 +32,67 @@
   - machine learning
   - manufacturing
   - permeability
+- id: doi:10.1016/j.compositesa.2025.109348
+  title: 'Through-thickness compaction response of reinforcement fabrics: Development
+    of a test standard'
+  authors:
+  - A.X.H. Yong
+  - A. Endruweit
+  - A. George
+  - D. May
+  - Y.A. Aksoy
+  - M.A. Ali
+  - T. Allen
+  - M. Bender
+  - M. Bodaghi
+  - B. Caglar
+  - H. Caglar
+  - A. Chiminelli
+  - S. Comas-Cardona
+  - R. de Ribains
+  - J. Dittmann
+  - C. Dransfeld
+  - E. Fauster
+  - A. Guilloux
+  - P. Hubert
+  - S. Idapalapati
+  - J. Ivens
+  - J. Janzen
+  - Y. Jiang
+  - T. Khan
+  - M. Laspalas
+  - F. LeBel
+  - J. Lee
+  - X. Liu
+  - M. Lizaranzu
+  - S.V. Lomov
+  - "C. L\xF3pez"
+  - K. Masania
+  - V. Michaud
+  - P. Middendorf
+  - S. Miguel
+  - S.S. Narayana
+  - C.H. Park
+  - S. Ravisankar Padma
+  - L. Riffard
+  - C. Pinger
+  - V. Rougier
+  - H. Sas
+  - D. Sayinbas
+  - P. Sousa
+  - M. Sozer
+  - M. Steinhardt
+  - R. Umer
+  - J.D. Vincent
+  - V. Werlen
+  - O. Yuksel
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2026-01-01'
+  link: https://doi.org/g9748p
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1021/acsomega.5c05746
   title: 3D-Printed Microfiltration Membranes via Dual-Wavelength Microstereolithography
   authors:
