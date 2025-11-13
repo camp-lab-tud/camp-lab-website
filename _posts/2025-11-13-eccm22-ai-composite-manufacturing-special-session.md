@@ -1,5 +1,5 @@
 ---
-title: ECCM22 Special Session - Digital Twins and AI for Composite Manufacturing: Modelling, Monitoring and Control
+title: "ECCM22 Special Session - Digital Twins and AI for Composite Manufacturing: Modelling, Monitoring and Control"
 image: images/news/2025-11-13-eccm22-ai-composite-manufacturing-special-session/eccm22-color-600.png
 author: baris-caglar
 last_modified_at:
