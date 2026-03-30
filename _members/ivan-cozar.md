@@ -1,7 +1,7 @@
 ---
 name: Ivan Ruiz Cózar
 image:
-role: postdoc
+role: alumni
 aliases:
   - I. R. Cózar
   - IR Cózar
