@@ -32,6 +32,22 @@
   - machine learning
   - manufacturing
   - permeability
+- id: doi:10.1016/j.addlet.2026.100360
+  title: Multi-camera fault detection in fused filament fabrication printing
+  authors:
+  - Shanthalakshmi Kilambi
+  - Aster Tournoy
+  - Muhamad Amani
+  - Jovana Jovanova
+  - Baris Caglar
+  - Kunal Masania
+  publisher: Additive Manufacturing Letters
+  date: '2026-04-01'
+  link: https://doi.org/hbr2g7
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.compositesa.2025.109348
   title: 'Through-thickness compaction response of reinforcement fabrics: Development
     of a test standard'
