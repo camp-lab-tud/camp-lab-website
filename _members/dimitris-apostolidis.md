@@ -1,6 +1,6 @@
 ---
 name: Dimitrios Apostolidis
-image: images/team/dimitrios-apostolidis.png
+image: images/team/dimitrios-apostolidis.jpeg
 role: phd
 cosupervisors: clemens-dransfeld, baris-kumru
 aliases:
