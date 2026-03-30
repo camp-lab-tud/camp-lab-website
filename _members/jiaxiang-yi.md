@@ -1,8 +1,7 @@
 ---
 name: Jiaxiang Yi
 image: images/team/jiaxiang-yi.jpeg
-role: phd
-cosupervisors: miguel-bessa
+role: alumni
 aliases:
   - Jiaxiang Yi
   - J. Yi
