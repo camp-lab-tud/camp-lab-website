@@ -24,11 +24,12 @@ We offer **Bachelor thesis (BSc)** and  **Master thesis (MSc)** opportunities in
 - [Optimization of Frontal Polymerization Pultrusion for High-Performance Composite Manufacturing](https://surfdrive.surf.nl/s/zRHwiENAYQXDNaY) by [Clément Broggi](../members/clement-broggi)
 - [Bake it till you make it! Build AI that makes composites manufacturing faster and smarter](https://surfdrive.surf.nl/s/C9CiYGQB3SbRbb7) by [Ashish Hegde](../members/ashish-hegde)
 - [Lignin the Way : Bio-Based Thermoplastic Resins as Matrices for Natural Fiber Reinforced Composites towards Renewable Aircraft Interion Design](https://surfdrive.surf.nl/s/2B3ef6MgdKF3XTz) by [Dimitris Apostolidis](../members/dimitris-apostolidis)
+- [Optical Image Analysis for Quality Control in Ultra-High Performance CFRP Manufacturing](https://surfdrive.surf.nl/s/mFnAwpHLgoEyQf7) by [Ehshan ul-Haq](../members/ehshan-ul-haq)
 
 **Industry theses**
 - [ML-Assisted Infusion Simulation and Design Optimization in Wind Turbine Blades](https://surfdrive.surf.nl/s/GmBWKRi239ZBo4x) in collaboration with [GE Vernova](https://www.gevernova.com/)
 - [Composite Cure Optimization and Adaptive Control in Wind Turbine Blades](https://surfdrive.surf.nl/s/awCxcG9Z65ddSK7) in collaboration with [GE Vernova](https://www.gevernova.com/)
-- 
+
 
 Interested in joining our group but cannot find your dream subject above? 
 Contact [Prof. Baris Caglar](../members/baris-caglar) with:
