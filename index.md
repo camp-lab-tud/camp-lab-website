@@ -36,7 +36,7 @@ At CAMP Lab, our research focuses on sustainable composites and their manufactur
       600: { perView: 1 },
       1200: { perView: 2 }
     },
-    autoplay: 2000,
+    autoplay: 5000,
     hoverpause: true,
     focusAt: "center"
   }).mount()
