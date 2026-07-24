@@ -84,6 +84,8 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Update citations"
+          branch: update-citations
+          create_branch: true
 
       - name: Open pull request with updated citations
         if: |
