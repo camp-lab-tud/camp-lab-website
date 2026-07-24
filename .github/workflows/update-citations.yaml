@@ -85,6 +85,7 @@ jobs:
         with:
           commit_message: "Update citations"
 
+
       - name: Open pull request with updated citations
         if: |
           github.event.action != 'closed' &&
