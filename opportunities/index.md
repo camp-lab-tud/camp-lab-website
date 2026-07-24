@@ -25,6 +25,7 @@ We offer **Bachelor thesis (BSc)** and  **Master thesis (MSc)** opportunities in
 - [Bake it till you make it! Build AI that makes composites manufacturing faster and smarter](https://surfdrive.surf.nl/s/C9CiYGQB3SbRbb7) by [Ashish Hegde](../members/ashish-hegde)
 - [Lignin the Way : Bio-Based Thermoplastic Resins as Matrices for Natural Fiber Reinforced Composites towards Renewable Aircraft Interion Design](https://surfdrive.surf.nl/s/2B3ef6MgdKF3XTz) by [Dimitris Apostolidis](../members/dimitris-apostolidis)
 - [Optical Image Analysis for Quality Control in Ultra-High Performance CFRP Manufacturing](https://surfdrive.surf.nl/s/mFnAwpHLgoEyQf7) by [Ehshan ul-Haq](../members/ehshan-ul-haq)
+- [Vision-Based Fault Detection for 3D Printers Using Deep Learning](https://surfdrive.surf.nl/s/CoSFnq5nyyfYdGo) by [Shantha Kilambi](../members/shantha-kilambi)
 
 **Industry theses**
 - [ML-Assisted Infusion Simulation and Design Optimization in Wind Turbine Blades](https://surfdrive.surf.nl/s/GmBWKRi239ZBo4x) in collaboration with [GE Vernova](https://www.gevernova.com/)
