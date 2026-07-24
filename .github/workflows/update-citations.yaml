@@ -67,6 +67,8 @@ jobs:
         with:
           file_pattern: "**/.cache/**"
           commit_message: "Commit cache"
+          branch: update-citations
+          create_branch: true
 
       - name: Check if citations changed
         if: github.event.action != 'closed'
@@ -84,6 +86,9 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Update citations"
+          branch: update-citations
+          create_branch: true
+
 
       - name: Open pull request with updated citations
         if: |
