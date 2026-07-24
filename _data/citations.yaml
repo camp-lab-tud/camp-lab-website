@@ -1,5 +1,41 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.compositesa.2026.110089
+  title: Influence of processing conditions on internal stresses, crack formation,
+    and cure kinetics in frontally polymerized composites
+  authors:
+  - "Cl\xE9ment Broggi"
+  - Onur Yuksel
+  - "V\xE9ronique Michaud"
+  - Baris Caglar
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2026-11-01'
+  link: https://doi.org/hccg3x
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/adma.73574
+  title: "Weaving Intelligence: Thermally Drawn Multimaterial Fibers Toward AI\u2010\
+    Enabled Smart Textiles"
+  authors:
+  - Vuong Dinh Trung
+  - Jiaxiang Yi
+  - "Hieu Nguyen\u2010Duc"
+  - Tien Nu Hoang Lo
+  - Weili Zhao
+  - Chaoqun Dong
+  - Fabien Sorin
+  - Baris Caglar
+  - Lei Wei
+  - "Tung Nguyen\u2010Dang"
+  publisher: Advanced Materials
+  date: '2026-06-05'
+  link: https://doi.org/hccg3z
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.compositesa.2025.109337
   title: An image-based deep learning framework for flow field prediction in arbitrary-sized
     fibrous microstructures
@@ -269,17 +305,6 @@
   - frontal polymerization
   - out-of-autoclave
   - sustainability
-- id: isbn:978-2-912985-01-9
-  title: 'ECCM21: 02-05 July 2024, Nantes, France: proceedings of the 21st European
-    Conference on Composite Materials'
-  authors: []
-  publisher: European Society for Composite Materials (ESCM)
-  date: '2024-01-01'
-  link: ''
-  orcid: 0000-0001-7771-7323
-  baris-caglar: true
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1002/pc.28171
   title: 'Saturated transverse permeability of unidirectional rovings for pultrusion:
     The effect of microstructural evolution through compaction'
@@ -472,17 +497,6 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
-- id: 'isbn:978-2-9701614-0-0 '
-  title: Proceedings of the 20th European Confrence on Composite Materials, ECCM20,
-    26-30 June 2022, EPFL Lausanne, Switzerland
-  authors: []
-  publisher: Composite Construction Laboratory (CCLab)
-  date: '2022-01-01'
-  link: ''
-  orcid: 0000-0001-7771-7323
-  baris-caglar: true
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.3389/fmats.2022.809226
   title: 'Capillary Effects in Fiber Reinforced Polymer Composite Processing: A Review'
   authors:
@@ -536,22 +550,11 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
-- id: isbn:978-2-9701614-0-0
-  title: Proceedings of the 20th European Confrence on Composite Materials, ECCM20,
-    26-30 June 2022, EPFL Lausanne, Switzerland
-  authors: []
-  publisher: Composite Construction Laboratory (CCLab)
-  date: '2022-01-01'
-  link: ''
-  orcid: 0000-0001-7771-7323
-  baris-caglar: true
-  plugin: orcid.py
-  file: orcid.yaml
 - title: 'Experimental investigation of tow spreading: Influence of tension, pulling
     speed and relative rotational speed of spreading bar'
   publisher: 20th European Conference on Composite Materials, Lausanne, Switzerland,
     26/06/22
-  date: '2023-02-11'
+  date: '2026-04-04'
   link: https://research.tudelft.nl/en/publications/49d0f714-77f8-47be-9511-e4a098ae8539
   orcid: 0000-0001-7771-7323
   baris-caglar: true
