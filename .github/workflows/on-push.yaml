@@ -22,3 +22,6 @@ jobs:
   build-site:
     needs: update-citations
     uses: ./.github/workflows/build-site.yaml
+    with:
+      open-pr: true
+    secrets: inherit
