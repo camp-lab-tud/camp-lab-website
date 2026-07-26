@@ -31,7 +31,6 @@ We offer **Bachelor thesis (BSc)** and  **Master thesis (MSc)** opportunities in
 - [ML-Assisted Infusion Simulation and Design Optimization in Wind Turbine Blades](https://surfdrive.surf.nl/s/GmBWKRi239ZBo4x) in collaboration with [GE Vernova](https://www.gevernova.com/)
 - [Composite Cure Optimization and Adaptive Control in Wind Turbine Blades](https://surfdrive.surf.nl/s/awCxcG9Z65ddSK7) in collaboration with [GE Vernova](https://www.gevernova.com/)
 
-
 Interested in joining our group but cannot find your dream subject above? 
 Contact [Prof. Baris Caglar](../members/baris-caglar) with:
 - A short paragraph discussing your topics of interest and your motivation.  
