@@ -16,6 +16,16 @@
   plugin: orcid.py
   file: orcid.yaml
   group: featured
+  tags:
+  - internal stresses
+  - carbon fiber reinforced polymer
+  - out-of-autoclave processing
+  description: "Internal stress generation in frontal polymerization differs fundamentally \
+  \ from conventional oven curing. We observed that the propagating reaction front creates a \
+  \ localized expansion zone due to steep thermal gradients, temporarily pushing the surrounding \
+  \ material away from the front. For high-reactive fronts, this expansion is locked in the structure \
+  \ as the curing takes only a few moments. However, we found that frontal polymerization can efficiently \
+  produce composite laminates while drastically reducing internal stresses through the use of a less reactive resin system."
 - id: doi:10.1002/adma.73574
   title: "Weaving Intelligence: Thermally Drawn Multimaterial Fibers Toward AI\u2010\
     Enabled Smart Textiles"
