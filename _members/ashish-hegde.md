@@ -3,8 +3,8 @@ name: Ashish Hegde
 image: images/team/ashish-hedge.jpeg
 role: phd
 aliases:
-  - A. Hedge
-  - A Hedge
+  - A. Hegde
+  - A Hegde
 links:
   # home-page: 
   google-scholar: BttOEYgAAAAJ
