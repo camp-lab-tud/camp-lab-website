@@ -21,4 +21,4 @@ The following topics of interest will be covered:
 - Digital twins for manufacturing processes
 - Predictive models linking structure, process, and properties
 
-We look forward to receiving abstracts, which should be submitted through the [ECCm22 website](https://www.ntnu.edu/eccm22/home).
+We look forward to receiving abstracts, which should be submitted through the [ECCM22 website](https://www.ntnu.edu/eccm22/home).
