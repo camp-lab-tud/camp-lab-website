@@ -1,0 +1,29 @@
+---
+title: "ECCM22, 21-25 June 2026, Oslo"
+image: images/news/2026-06-25-camplab_at_eccm/2026-06-25-camplab_at_eccm.HEIC
+author: baris-caglar, ashish-hegde, clement-broggi, dimitris-apostolidis, ehshan-ul-haq, jimmy-jean, shantha-kilambi
+last_modified_at:
+tags:
+  - composites
+  - manufacturing
+  - biobased tapes
+  - tape manufacturing
+  - image-based analysis
+  - frontal polymerization
+  - additive manufacturing
+  - ai-based modeling
+---
+
+<!-- excerpt start -->
+We had a strong presence at [ECCM22](https://www.ntnu.edu/eccm22/home).
+<!-- excerpt end -->
+
+Some highlights from the conference:
+- We contributed to the program by seven talks (proceedings accessible below) and chairing multiple sessions
+- Baris was re-elected to the [ESCM Council](https://escm-eu.org/council/) and joined the ESCM executive committee as secretary general
+
+{%
+  include alert.html
+  type="info"
+  content="Access the presentations: [Material Heterogeneities in frontal polymerization](https://surfdrive.surf.nl/s/LHeZXqJdTo3w7wE)."
+%}
