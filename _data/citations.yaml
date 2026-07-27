@@ -15,6 +15,7 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
+  group: featured
 - id: doi:10.1002/adma.73574
   title: "Weaving Intelligence: Thermally Drawn Multimaterial Fibers Toward AI\u2010\
     Enabled Smart Textiles"
@@ -51,7 +52,6 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  group: featured
   image: https://ars.els-cdn.com/content/image/1-s2.0-S1359835X25006311-ga1_lrg.jpg
   description: "We introduce an image-based surrogate framework to estimate velocity\
     \ and pressure fields in unidirectional composite microstructures of arbitrary\
