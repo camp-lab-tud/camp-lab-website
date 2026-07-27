@@ -1,6 +1,6 @@
 ---
 title: "ECCM22, 21-25 June 2026, Oslo"
-image: images/news/2026-06-25-camplab_at_eccm/2026-06-25-camplab_at_eccm.HEIC
+image: images/news/2026-06-25-camplab_at_eccm/2026-06-25-camplab_at_eccm.jpeg
 author: baris-caglar, ashish-hegde, clement-broggi, dimitris-apostolidis, ehshan-ul-haq, jimmy-jean, shantha-kilambi
 last_modified_at:
 tags:
@@ -25,5 +25,7 @@ Some highlights from the conference:
 {%
   include alert.html
   type="info"
-  content="Access the presentations: [Material Heterogeneities in frontal polymerization](https://surfdrive.surf.nl/s/LHeZXqJdTo3w7wE)."
+  content="Access the presentations: 
+  - [Material Heterogeneities in frontal polymerization](https://surfdrive.surf.nl/s/LHeZXqJdTo3w7wE)
+  - [The Flax Files: Processing–Structure Relationships in Continuous Natural Fiber Thermoplastic Tapes](https://surfdrive.surf.nl/s/qJeB4w6yoprSf6g)"
 %}
