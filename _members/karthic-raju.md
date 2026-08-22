@@ -1,6 +1,6 @@
 ---
 name: Karthic Raju
-image: images/team/karthic-raju.png
+image: images/team/khartic-raju.png
 role: postdoc
 cosupervisors:	boyang-chen
 aliases:
