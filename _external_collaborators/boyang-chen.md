@@ -1,5 +1,5 @@
 ---
-name: Boyan Chen
+name: Boyang Chen
 image: 
 role: external-advisor
 links:
