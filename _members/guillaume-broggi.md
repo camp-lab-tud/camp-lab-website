@@ -1,7 +1,7 @@
 ---
 name: Guillaume Broggi
 image: images/team/guillaume-broggi.webp
-role: postdoc
+role: alumni
 aliases:
   - G. Broggi
   - G Broggi
