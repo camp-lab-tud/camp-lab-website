@@ -2,6 +2,7 @@
 name: Karthic Raju
 image: 
 role: postdoc
+cosupervisors:	boyang-chen
 aliases:
   - Karthikeyan Raju
 links:
