@@ -1,7 +1,7 @@
 ---
 name: Oguz Eryilmaz
 image: images/team/oguz-eryilmaz.png
-role: postdoc
+role: alumni
 aliases:
   - O Eryilmaz
   - O. Eryilmaz
