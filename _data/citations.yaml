@@ -15,17 +15,19 @@
   baris-caglar: true
   plugin: orcid.py
   file: orcid.yaml
-  group: featured
-  tags:
-  - internal stresses
-  - carbon fiber reinforced polymer
-  - out-of-autoclave processing
-  description: "Internal stress generation in frontal polymerization differs fundamentally \
-  \ from conventional oven curing. We observed that the propagating reaction front creates a \
-  \ localized expansion zone due to steep thermal gradients, temporarily pushing the surrounding \
-  \ material away from the front. For high-reactive fronts, this expansion is locked in the structure \
-  \ as the curing takes only a few moments. However, we found that frontal polymerization can efficiently \
-  produce composite laminates while drastically reducing internal stresses through the use of a less reactive resin system."
+- id: doi:10.1016/j.compositesa.2026.110186
+  title: Accelerating curing simulations of composites using Graph Neural Networks
+  authors:
+  - Ashish V. Hegde
+  - Dimitrios Zarouchas
+  - Baris Caglar
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2026-08-01'
+  link: https://doi.org/hcgg53
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/adma.73574
   title: "Weaving Intelligence: Thermally Drawn Multimaterial Fibers Toward AI\u2010\
     Enabled Smart Textiles"
@@ -62,6 +64,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
+  group: featured
   image: https://ars.els-cdn.com/content/image/1-s2.0-S1359835X25006311-ga1_lrg.jpg
   description: "We introduce an image-based surrogate framework to estimate velocity\
     \ and pressure fields in unidirectional composite microstructures of arbitrary\
