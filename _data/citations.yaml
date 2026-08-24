@@ -1,5 +1,18 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.compositesa.2026.110186
+  title: Accelerating curing simulations of composites using Graph Neural Networks
+  authors:
+  - Ashish V. Hegde
+  - Dimitrios Zarouchas
+  - Baris Caglar
+  publisher: 'Composites Part A: Applied Science and Manufacturing'
+  date: '2026-08-01'
+  link: https://doi.org/hcgg53
+  orcid: 0000-0001-7771-7323
+  baris-caglar: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.compositesa.2026.110089
   title: Influence of processing conditions on internal stresses, crack formation,
     and cure kinetics in frontally polymerized composites
@@ -11,19 +24,6 @@
   publisher: 'Composites Part A: Applied Science and Manufacturing'
   date: '2026-11-01'
   link: https://doi.org/hccg3x
-  orcid: 0000-0001-7771-7323
-  baris-caglar: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.compositesa.2026.110186
-  title: Accelerating curing simulations of composites using Graph Neural Networks
-  authors:
-  - Ashish V. Hegde
-  - Dimitrios Zarouchas
-  - Baris Caglar
-  publisher: 'Composites Part A: Applied Science and Manufacturing'
-  date: '2026-08-01'
-  link: https://doi.org/hcgg53
   orcid: 0000-0001-7771-7323
   baris-caglar: true
   plugin: orcid.py
