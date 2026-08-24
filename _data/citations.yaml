@@ -11,8 +11,22 @@
   link: https://doi.org/hcgg53
   orcid: 0000-0001-7771-7323
   baris-caglar: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  group: featured
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S1359835X26006330-ga1_lrg.jpg
+  description: This work presents a Graph Neural Network with a MeshGraphNet style
+    architecture applied to the 2D thermochemical modelling of the curing of carbon-fibre
+    reinforced composites. The capability of the model to accelerate cure simulations
+    was demonstrated by using it with a genetic algorithm for multi-objective optimisation
+    of the cure cycle. The potential of expanding to new geometries and including
+    anisotropic conductivity was assessed, capabilities and limitations were reported.The
+    dataset and trained models are [openly available to the community](/code-and-data).
+  tags:
+  - composites
+  - cure modeling
+  - graph neural networks
 - id: doi:10.1016/j.compositesa.2026.110089
   title: Influence of processing conditions on internal stresses, crack formation,
     and cure kinetics in frontally polymerized composites
