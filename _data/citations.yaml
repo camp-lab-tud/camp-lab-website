@@ -21,8 +21,8 @@
     reinforced composites. The capability of the model to accelerate cure simulations
     was demonstrated by using it with a genetic algorithm for multi-objective optimisation
     of the cure cycle. The potential of expanding to new geometries and including
-    anisotropic conductivity was assessed, capabilities and limitations were reported.The
-    dataset and trained models are [openly available to the community](/code-and-data).
+    anisotropic conductivity was assessed, capabilities and limitations were reported.
+    The dataset and trained models are [openly available to the community](/code-and-data).
   tags:
   - composites
   - cure modeling
@@ -78,7 +78,7 @@
   plugin: sources.py
   file: sources.yaml
   type: paper
-  group: featured
+  group: null
   image: https://ars.els-cdn.com/content/image/1-s2.0-S1359835X25006311-ga1_lrg.jpg
   description: "We introduce an image-based surrogate framework to estimate velocity\
     \ and pressure fields in unidirectional composite microstructures of arbitrary\
