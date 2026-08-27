@@ -7,6 +7,7 @@ CAMP Lab is a research group at [TU Delft (NL)](https://www.tudelft.nl/en/) focu
 At CAMP Lab, our research advances sustainable, high-performance composite manufacturing by combining AI-driven digitalization with next-generation materials and processing routes. Our work is organized around two main pillars:
 
 **Sustainable Composites** - Resource- and energy-efficient manufacturing enabled through frontal polymerization, biobased composites, and thermoplastic tapes, aimed at reducing the environmental footprint of high-performance structures.
+
 **AI and Digitalization** - Data-driven approaches for improved process design, monitoring, and control, leveraging state-of-the-art AI and machine learning models to accelerate the development and optimization of composite manufacturing processes.
 
 
